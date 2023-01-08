@@ -1,0 +1,8 @@
+CandidateId,FullName,CompanyId,CompanyId,CompanyName
+4,Steve,NULL,NULL,NULL
+7,Kiran,NULL,NULL,NULL
+1,Ron,1,1,DELL
+5,Ravi,1,1,DELL
+2,Pete,2,2,HP
+3,Steve,3,3,IBM
+6,Raj,3,3,IBM

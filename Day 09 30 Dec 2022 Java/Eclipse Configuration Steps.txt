@@ -1,0 +1,42 @@
+Step1: Download Web Development Eclipse Version
+Step2: Extract and Keep eclise zip inside "C:\"  avoid deep paths
+Step3: Optional  -- Install Plugin as applicable e.g Tomcat or any third party non commercial plugin.
+Step4: Configure Installed JRE in Eclipse
+Menus->Windows->Preference->Search for Installed JRE
+You can remove optional default eclipse jre.
+Click on Add->Standard VM->Next->Directory->
+Choose the jdk path from pop up-->
+C:\Program Files\Eclipse Adoptium\jdk-8.0.352.8-hotspot
+Automacically JRE is picked up.
+We provided path of JDK and eclipse pickup jre
+NOTE: We need to provide JDK path not JRE becuase JDK has already JRE configured.
+Click finish
+Click Apply->Apply and Close
+Remember the JDK is set only for the current workspace and if you change the workspace 
+the Installed JRE need to be set up again.
+Step 5: Create Project? what type? Java Project
+
+How shall I write project name
+must be--> smallcase with each word seperated by -
+e.g. my-first-eclipse-project
+e.g. capstone-brms-group1
+e.g red-bus
+e.g the-times-of-india
+
+Change JRE-  use default JRE
+You can uncheck module if you using java >=9 version.
+Click Next->Finish
+
+You will get pop up to change perspective from JavaEE to Java since we downloaded Eclipse for JavEE application the default perspective is set to JavaEE means all options for JavaEE will be enabled for you, but we dont want them for our simple Java projects.
+
+Step 6: Expand project and see you have right jdk configured i.e. which you added in Installed JRE
+You can explan the jdk and check into rt.jar which is our runtime jar in jdk.
+Check for java packages.. you will see .class file after clicking the class file you see java code becase eclipse IDE did decompilation.
+
+check for System class inside?  java.lang.System.out  --> PrintStream --> println() method
+System.out.println();
+
+Step 7: src folder comprise of all our source codes packages and java files.
+Right click on source and you can create class or create package first.
+You can crearte class and package will be automcatically created.
+

@@ -1,0 +1,7 @@
+package com.revature.service;
+
+import com.revature.model.Car;
+public class CarService {
+
+	
+}

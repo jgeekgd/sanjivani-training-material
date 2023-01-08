@@ -1,0 +1,18 @@
+
+
+1. Using any local system editor we write code.
+2. Eearlier people NetBeans (SDK-> app server+tools+ide)
+3. Eclipse IDE free another option 
+----- 4. Commercial version of Eclipse RAD -- Rapid Application Devlopers
+----- 6GB size --- license?? 
+4. Custom flavour of Eclipse IDE   ----- Eclipse SDE  -- all employees to use that not donwload the vanila pack  .. Secure
+
+----------------------------
+5. Jetbrains
+---- IntelliJ IDEA  (community & ultimate)
+---- Rotational license ... 100 lic
+----------------------------
+
+6. Spring Framework
+Customized flavour of Eclipse Spring Tool Suite STS downlaod
+

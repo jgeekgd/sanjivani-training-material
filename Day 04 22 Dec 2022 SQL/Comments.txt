@@ -1,0 +1,21 @@
+Comments
+MySQL Server supports three comment styles:
+
+From a # character to the end of the line.
+
+From a --  sequence to the end of the line. In MySQL, the --  (double-dash) comment style requires the second dash to be followed by at least one whitespace or control character (such as a space, tab, newline, and so on). This syntax differs slightly from standard SQL comment syntax, as discussed in Section 1.6.2.4, “'--' as the Start of a Comment”.
+
+From a /* sequence to the following */ sequence, as in the C programming language. This syntax enables a comment to extend over multiple lines because the beginning and closing sequences need not be on the same line.
+
+The following example demonstrates all three comment styles:
+
+ 
+mysql> SELECT 1+1;     # This comment continues to the end of line
+mysql> SELECT 1+1;     -- This comment continues to the end of line
+mysql> SELECT 1 /* this is an in-line comment */ + 1;
+mysql> SELECT 1+
+/*
+this is a
+multiple-line comment
+*/
+1;

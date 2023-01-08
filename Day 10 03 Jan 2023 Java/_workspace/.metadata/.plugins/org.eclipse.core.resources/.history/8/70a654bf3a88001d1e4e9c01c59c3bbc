@@ -1,0 +1,39 @@
+package family;
+
+public class House {
+	// Member variables
+	public String mangoTree;
+	prviate String secuityLocker; // when no access modifier its termed as default access modifier, avoid default
+	private String smartTV;
+	private String car;
+
+	public void setMangoTree(String whichMango) {
+		this.mangoTree = whichMango; // Initializing Instance variable
+	}
+
+	public String getMangoTree() {
+		return this.mangoTree; // Instance variable
+	}
+
+	public void setSmartTv(String sm) {
+		this.smartTV = sm; // Initializing Instance variable
+	}
+
+	public String getSmartTV() {
+		return this.smartTV; // Instance variable
+	}
+
+	public void setCar(String carName) {
+		this.car = carName; // Instance variable
+	}
+
+	public String getCar() {
+		return this.car; // Instance variable
+	}
+
+	
+	public void wife() {
+		
+		this.
+	}
+}

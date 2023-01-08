@@ -1,0 +1,8 @@
+CandidateId,FullName,CompanyId
+1,Ron,1
+2,Pete,2
+3,Steve,3
+4,Steve,NULL
+5,Ravi,1
+6,Raj,3
+7,Kiran,NULL

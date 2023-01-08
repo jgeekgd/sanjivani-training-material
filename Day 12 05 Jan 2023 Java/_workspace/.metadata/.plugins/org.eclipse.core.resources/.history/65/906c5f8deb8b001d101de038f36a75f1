@@ -1,0 +1,14 @@
+package com.revature.service;
+
+import com.revature.model.Car;
+public class CarService {
+
+	public Car buildCar() {
+		Car c=null;
+		
+		return c;
+		 
+	}
+	
+	
+}

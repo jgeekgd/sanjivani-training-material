@@ -1,0 +1,8 @@
+package usa;
+
+public class SonFriend {
+	public void accessSonAsset() {
+		
+	}
+
+}

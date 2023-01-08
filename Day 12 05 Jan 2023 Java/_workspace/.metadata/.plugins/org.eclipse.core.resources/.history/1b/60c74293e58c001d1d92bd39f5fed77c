@@ -1,0 +1,8 @@
+package wrapperclasses;
+
+public class IntergerDemo {
+	public static void main(String[] args) {
+		Integer i=Integer.parseInt("122");
+		
+	}
+}

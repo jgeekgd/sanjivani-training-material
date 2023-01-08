@@ -1,0 +1,10 @@
+package family;
+
+public class Daughter extends Father {
+	public void school() {
+		this.
+		
+	}
+	
+}
+

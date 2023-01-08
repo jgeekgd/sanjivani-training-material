@@ -1,0 +1,15 @@
+SELECT * 
+FROM gd_flipkart.books
+ORDER BY NUM_OF_PAGES DESC;
+
+SELECT * 
+FROM gd_flipkart.books
+ORDER BY NUM_OF_PAGES DESC
+LIMIT 1, 2;
+
+SELECT * 
+FROM gd_flipkart.books
+ORDER BY NUM_OF_PAGES DESC
+LIMIT 3;
+
+

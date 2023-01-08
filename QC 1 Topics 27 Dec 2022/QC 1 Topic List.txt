@@ -1,0 +1,61 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 19
+Computer fundamentals.
+Programming languages - History & Evolution
+Programming Paradigms.
+Linux Commands
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 20
+Introduction to SDLC, Agile vs Waterfall, Agile/Scrum Concepts
+Sprint, Backlogs, Scrum Ceremonies.
+Git flow & Branching strategies
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 21
+Data, Information, DB, DBMS, RDBMS
+ER Diagram - Quick Intro
+Relational Algebra.
+Normalization
+Interact with MySQL DB
+SQL Intro, categorization into DDL, DML, DQL, DCL, TCL
+DDL-Database & Tables (Entities)
+Attributes and Rows
+Cardinality Ratios
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 22
+Column and its data types
+Constraints (PRIMARY, UNIQUE, CHECK, NOT NULL, FORIEGN KEY)
+Referential Integrity
+Table relationships: 1-1,1-m,m-1,m-m
+ALTER, DROP Tables
+Comments.
+DML - INSERT, UPDATE, DELETE
+Bulk INSERT records.
+Using WHERE conditions (AND , OR, NOT, LIKE with wildcards, IN, BETWEEN, IS NULL etc) & Relational Operators.
+FROM Clause
+DELETE & TRUNCATE Table.
+DQL-SELECT clause 
+Column & Table alias
+*, DISTINCT, SELECT Without FROM.
+Arithmetic/Comparison Operators.
+Concatenation operator (`||`)
+using SET sql_mode='PIPES_AS_CONCAT';
+ORDER BY clause,
+LIMIT,
+Predefined Aggregate functions(MIN, MAX, COUNT, AVG, SUM) 
+GROUP By clause
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 23
+HAVING clause
+INSERT INTO SELECT
+SET Operations - 
+UNION, UNION ALL, NTERSECT, 
+EXCEPT using MySQL 8.0.31
+DQL-JOINS & All Types (Cross, Inner, Left, Right, Full, Self)
+Using IN, NOT IN.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 26
+ACID Properties of Transactions
+TCL- COMMIT, ROLLBACK, SAVEPOINT. 
+DCL - GRANT, REVOKE, WITH OPTION
+CREATE OR REPLACE/DROP VIEWS, Advantages of views
+CREATE/ALTRE/DROP FUNCTION & PROCEDURES

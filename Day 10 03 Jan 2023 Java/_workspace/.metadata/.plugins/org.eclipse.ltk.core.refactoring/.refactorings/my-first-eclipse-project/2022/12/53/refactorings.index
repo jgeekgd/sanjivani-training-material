@@ -1,0 +1,9 @@
+1672380617950	Delete element
+1672383514963	Extract method 'howToGetValueEasilyFromUser'
+1672387159442	Delete element
+1672391628117	Extract method 'registerUser'
+1672396329094	Extract method 'singleDimensionArray'
+1672397495126	Extract method 'twoDimensionArray'
+1672397662656	Extract method 'threeDimensionArray'
+1672397762055	Extract method 'arrayWithoutName'
+1672398553952	Extract method 'commandLineArguments'

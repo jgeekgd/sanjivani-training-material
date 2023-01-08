@@ -1,0 +1,25 @@
+DBA --- Avoid Using DB system logins, inbuilt logins
+1. Remove System login or update their default password
+2. Post Installation/Between Installation
+
+Password formats: 34&^ghs212h^^T@#Y(
+
+<-- 6 Developers in scrum team:
+1. Each one will have his/her own access.
+ Why? if my mistake someone do major imapctful changes to DB/Table it can be traced easily.
+2. For the Application Which Inteacts with DB (not user) seperate UID & Password are mandate.
+	- DEV, IT, UAT, QA, STAGING, PREPROD, PROD
+
+Please share the uid, password -- ENSURE THE ACCES IS NOT READ/WRITE IT MUST BE READONLY
+
+
+PII/PHI of customer
+
+DCL  -- Ethics & Discpline
+
+How to create UI & Password for my DB or my DB Objects (Tables....) DCL
+
+
+
+
+

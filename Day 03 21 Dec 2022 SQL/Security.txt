@@ -1,0 +1,2 @@
+Authentication  -- I can login with my id and password
+Authorization  -- after login I can access X but not Y 

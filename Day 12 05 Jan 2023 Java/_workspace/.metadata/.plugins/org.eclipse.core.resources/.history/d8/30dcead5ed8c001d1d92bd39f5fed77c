@@ -1,0 +1,10 @@
+package basicofinheritance;
+
+public class Son extends Father {
+	
+	publid void accessFatherProperty() {
+		System.out.println("Father Car:"+this.car);
+		System.out.println("Father House:"+this.house);
+	}
+
+}

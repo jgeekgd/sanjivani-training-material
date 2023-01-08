@@ -1,0 +1,9 @@
+package home;
+
+public class Hello {
+	int age = 10;
+
+	public static void main(String[] args) {
+		System.out.println(new Hello().age);
+	}
+}

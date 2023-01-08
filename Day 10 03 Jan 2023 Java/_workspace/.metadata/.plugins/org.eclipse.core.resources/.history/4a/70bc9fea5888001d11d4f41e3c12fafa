@@ -1,0 +1,14 @@
+package staticmembers;
+
+public class Hello {
+	// access non static inside staic blockk
+	int age = 10;
+
+	private static void whatsAge() {
+		age++;
+	}
+
+	public static void main(String[] args) {
+		whatsAge();
+	}
+}

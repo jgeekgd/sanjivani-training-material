@@ -1,0 +1,39 @@
+package basicofinheritance;
+
+public class Son extends Father {
+	
+	private String education;
+	private String business;
+	private String bike;
+	
+	public Son() {
+	}
+
+	
+	public Son(String education, String business) {
+		super();
+		this.education = education;
+		this.business = business;
+	}
+
+
+	public Son(String house, String bankBalance, String car) {
+		super(house, bankBalance, car);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void accessFatherProperty() {
+		System.out.println("I got father Car:"+this.car);
+		System.out.println("I got father House:"+this.house);
+		System.out.println("I can see father Bank Balance:"+this.getBankBalance());
+		System.out.println("I can see father Car:"+this.getCar());
+		System.out.println("I can father House:"+this.getHouse());
+	}
+
+	public String displaySonProperty() {
+		return "Son []";
+	}
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package stringdemo;
+
+public class StringApiDemo {
+
+	public static void main(String[] args) {
+		String sms="Hi";
+		String sm1="Hi";
+		System.out.println(sms.hashCode());
+		System.out.println(sms1.hashCode());
+		
+		String sm1=new String("Hi");
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.revature.service;
+
+import com.revature.model.Car;
+
+public class CarService {
+
+	public Car buildCar() {
+		Car creta=new Car("Creta 2023","White","Automatic",2800000L);
+		return creta;
+	}
+
+	public void getCarDetails(Car car) {
+		System.out.println("-------Car Details-------");
+		System.out.println("\t\t 1.Manufacturer:"+Car.getManufacturer());
+		System.out.println("\t\t 1.Manufacturer:"+car.getCarName());
+		System.out.println("\t\t 1.Manufacturer:"+car.getCarColor());
+		System.out.println("\t\t 1.Manufacturer:"+car.getCarColor());
+		System.out.println("\t\t 1.Manufacturer:"+car.getCarColor());
+		
+	}
+}

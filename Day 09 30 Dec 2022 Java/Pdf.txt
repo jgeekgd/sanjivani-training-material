@@ -1,0 +1,39 @@
+JAR --- JAR
+
+the final product which you want to share with your clients is called as JAR
+
+JAR -- library created 
+Adobe --- PDF portable document format
+
+2003 --- windows word 2000
+
+S/W -- zip files so that you can give them to client
+
+.zip  ---- Winzip
+
+.rar   -- WinRar   Roshal Archieve
+
+.7z  --- 7 zip soft
+
+
+Java ---- I am creating application I wont all file should be shared in zip 
+in Java we avoid.msi , exe we rather use zip
+
+JAR  -- any third party library you want your code to be shared in the company with other teams -- jar file
+PDF file in Java?  JDK ?
+
+--- itextpdf  - create pdf file
+--- xls, doc, ppt  java?  apache poi
+
+
+Java
+Archieve
+-- JAR  ---> Java Archieve
+-- WAR  ---> Web Archive  -- JavaEE Web Application  -- Web Server
+-- EAR  ---> Enterprise Archieve   -- JavaEE Enterprise Application  -- Application Server
+-- RAR  ---> Resource Archieve  --- images, file in zip format
+
+
+
+
+

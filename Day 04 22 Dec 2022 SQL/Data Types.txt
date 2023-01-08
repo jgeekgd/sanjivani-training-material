@@ -1,0 +1,25 @@
+https://dev.mysql.com/doc/refman/8.0/en/integer-types.html
+
+salary DECIMAL(5,2)
+In this example, 5 is the precision and 2 is the scale. The precision represents the number of significant digits that are stored for values, and the scale represents the number of digits that can be stored following the decimal point.
+Standard SQL requires that DECIMAL(5,2) be able to store any value with five digits and two decimals, so values that can be stored in the salary column range from -999.99 to 999.99.
+
+
+https://dev.mysql.com/doc/refman/8.0/en/date-and-time-types.html
+
+
+The DATE type is used for values with a date part but no time part. MySQL retrieves and displays DATE values in 'YYYY-MM-DD' format. The supported range is '1000-01-01' to '9999-12-31'.
+
+The DATETIME type is used for values that contain both date and time parts. MySQL retrieves and displays DATETIME values in 'YYYY-MM-DD hh:mm:ss' format. The supported range is '1000-01-01 00:00:00' to '9999-12-31 23:59:59'.
+
+The TIMESTAMP data type is used for values that contain both date and time parts. TIMESTAMP has a range of '1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07' UTC.
+
+
+
+In contrast to CHAR, VARCHAR values are stored as a 1-byte or 2-byte length prefix plus data. The length prefix indicates the number of bytes in the value. A column uses one length byte if values require no more than 255 bytes, two length bytes if values may require more than 255 bytes.
+
+Value		CHAR(4)	Storage Required	VARCHAR(4)	Storage Required
+''			'    '	4 bytes			''		1 byte
+'ab'		'ab  '	4 bytes			'ab'		3 bytes
+'abcd'		'abcd'	4 bytes			'abcd'		5 bytes
+'abcdefgh'	'abcd'	4 bytes			'abcd'		5 bytes

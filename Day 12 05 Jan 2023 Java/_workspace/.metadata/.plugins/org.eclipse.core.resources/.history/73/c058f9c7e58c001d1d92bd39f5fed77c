@@ -1,0 +1,10 @@
+package wrapperclasses;
+
+public class IntergerDemo {
+	public static void main(String[] args) {
+		Integer i=Integer.parseInt("122");
+		Integer a=100;
+		
+		System.out.println(++i);
+	}
+}

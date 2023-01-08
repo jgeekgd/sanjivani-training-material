@@ -1,0 +1,38 @@
+Data, Information, DB, DBMS, RDBMS
+ER Diagram - Quick Intro
+Relational Algebra.
+Normalization
+Table relationships/Cardinality Ratios: 1-1,1-m,m-1,m-m
+
+Interact with MySQL DB
+Comments.
+SQL Intro, categorization into DDL, DML, DQL, DCL, TCL
+DDL-Database & Tables (Entities)
+Attributes and Rows
+Column and its data types
+Constraints (PRIMARY, UNIQUE, CHECK, NOT NULL, FORIEGN KEY, GENERATED ALWAYS )
+Referential Integrity
+ALTER, DROP Tables
+DML - INSERT, UPDATE, DELETE
+Bulk INSERT records.
+FROM Clause
+DQL-SELECT clause 
+Column & Table alias
+Arithmetic/Comparison Operators.
+Using WHERE conditions (AND , OR, NOT, LIKE with wildcards, IN, BETWEEN, IS NULL etc)  
+Relational Operators.
+DELETE & TRUNCATE Table.
+*, DISTINCT, SELECT Without FROM.
+Concatenation operator (`||`)
+using SET sql_mode='PIPES_AS_CONCAT';
+ORDER BY clause,
+LIMIT,
+Predefined Aggregate functions(MIN, MAX, COUNT, AVG, SUM) 
+GROUP By clause
+HAVING clause
+INSERT INTO SELECT
+
+
+https://dev.mysql.com/doc/refman/8.0/en/identifier-length.html
+
+

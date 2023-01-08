@@ -1,0 +1,9 @@
+package com.revature.model;
+
+public class SimCard {
+	private String serviceProvider;
+	private String contactNo;
+	private boolean fiveGenabled;
+	
+	
+}

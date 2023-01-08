@@ -1,0 +1,48 @@
+Day 1:
+Introduction to Java
+Features of Java - Java Buzzwords
+Object Oriented Programming
+Pillars of OOP
+JDK, JRE, JVM
+JDK installation
+Path: JAVA_HOME & Path Variable
+First Java Program: HelloWorld
+Detailing of first Java Program
+System.out.println - detailing
+Java Program execution order
+Javac compiler & Java launcher
+Multiple classes in source file
+Comments
+Keywords
+Literals
+Identifiers
+Variables
+Naming conventions
+Data types 
+Stack and Heap
+Java Packages 
+User defined Packages
+Arithmetic Operators
+BODMAS
+Expressions
+Unary Operators
+Assignment Operator
+Arithmetic Assignment Operators
+Relational Operators
+Logical Operators
+Ternary Operator
+Bitwise Operators
+Shift Operators
+instanceof operator
+Increment/Decrement operator
+Java statement and termination operator
+Variables - naming standards - primitive, reference
+Variable declaration and initialization
+Control Flow Statements
+if statement and single line if statement
+if-else-conditional-statement
+Nested if statement
+Ternary operator
+While loop
+For loop
+Do…while loop

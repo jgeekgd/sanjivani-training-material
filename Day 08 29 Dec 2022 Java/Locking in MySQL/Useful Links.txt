@@ -1,0 +1,15 @@
+Locks Set by Different SQL Statements in InnoDB:
+https://dev.mysql.com/doc/refman/8.0/en/innodb-locks-set.html
+
+MySQL Locks: A Comprehensive Guide 101
+https://hevodata.com/learn/mysql-locks/#:~:text=A%20MySQL%20Locks%20is%20nothing,during%20a%20specific%20time%20frame.
+https://www.javatpoint.com/mysql-table-locking
+
+MySQL Reference Manual:
+https://downloads.mysql.com/docs/refman-8.0-en.pdf
+
+Table Locking:
+https://www.mysqltutorial.org/mysql-table-locking/
+
+https://dev.mysql.com/doc/refman/5.7/en/innodb-next-key-locking.html
+https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html

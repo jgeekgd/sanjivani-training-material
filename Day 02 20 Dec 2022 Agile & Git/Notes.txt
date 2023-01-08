@@ -1,0 +1,79 @@
+Analysis (6 months)
+	what We need to build  --- BA 
+	Decide Tech Stack  -----  Architect? 
+	RAD  -- Rapid Application Development
+	SMS sent post ticket booking
+Design (1 month)
+	Practical show the design?  tools -- e.g. MS project
+	Unified Modeling Language (UML)
+	System Diagram
+	Sequqnce Diagram
+	Class Diagramd
+	Activity Diagram
+	Use case
+	DFD (Data flow diagram)
+	Collaboration Diagram
+	Prototype  tools --
+
+Coding (5 month)----- ?
+	one code base created -- entire folder strcture of project
+	project skelton code -- shared by architect or by "product owner"
+	Create codes
+	SOME testing developer has to do
+	Unit testing --- each single function/method
+	Integration Testing  -- whole components 
+	post integration are tested
+Testing (3 month)
+	There is dedicated team for doing testing
+	Automation Testing using scripts and various tools.
+	White box vs black box
+	penetration testing		
+Deployment
+	Deploy to server.
+	multiple server 
+	1 application --- 8 servers   -- Data Center
+	
+Maintenance  --- highly paid and continuous job
+	Update your servers with security patch
+	fix bugs issues
+	new additions to codes if required
+
+Waterfall model
+Agile model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

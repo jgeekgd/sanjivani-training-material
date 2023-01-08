@@ -1,0 +1,13 @@
+package family;
+
+public class House {
+	
+	//Member variables
+	public mangoTree;
+	private secuityLocker;
+	private smartTV;
+	private car;
+	
+	
+	
+}

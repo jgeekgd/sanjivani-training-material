@@ -1,0 +1,17 @@
+
+
+CREATE/DROP TRIGGERS Advantages of triggers.
+CREATE/DROP INDEX, Advantages of indexes
+Types of indexes
+
+Subqueries/Nested Queries.
+Corelated Subqueries
+IN, NOT IN, ANY, ALL, EXISTS operators
+
+TCL- COMMIT, ROLLBACK, SAVEPOINT. 
+Intro to ISOLATION LEVELS (Table Lock and Row locks).
+
+
+
+
+

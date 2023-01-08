@@ -1,0 +1,24 @@
+7,2   : 0.00-99999.99 
+34567.66  
+
+Intergers  by defaul they are signed (+/-) & unsiged you mention explicitly
+Decimals
+Character (single or multiple characters)
+The CHAR and VARCHAR Types
+
+Char is fixed size  --- =18=
+(+91) 976-545-7660
+
+VAR + CHAR = Variable(VAR) + Character(CHAR) 
+
+
+CHAR
+VARCHR
+NVARCHAR
+
+Date Time
+
+
+
+56.55
+

@@ -1,0 +1,8 @@
+package family;
+
+public class Son extends Father {
+	public void daughterInLaw() {
+		
+	}
+
+}

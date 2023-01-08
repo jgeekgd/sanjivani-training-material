@@ -1,0 +1,62 @@
+SET Operations - 
+UNION, 
+UNION ALL, 
+INTERSECT, 
+EXCEPT
+
+DQL-JOINS & All Types (
+Cross, 
+Inner, 
+Left, 
+Right, 
+Full, 
+Self)
+
+Subqueries/Nested Queries.
+Using IN, NOT IN, ANY, ALL, EXISTS operators)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DCL - GRANT, REVOKE, WITH OPTION
+ACID Properties of Transactions
+TCL- COMMIT, ROLLBACK, SAVEPOINT. 
+Intro to ISOLATION LEVELS (Table Lock and Row locks).

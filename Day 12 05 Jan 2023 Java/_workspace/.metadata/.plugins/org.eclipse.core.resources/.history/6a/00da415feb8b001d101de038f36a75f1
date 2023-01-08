@@ -1,0 +1,11 @@
+package com.revature.app;
+
+import com.revature.util.Calculator;
+
+public class App {
+
+	public static void main(String[] args) {
+		 System.out.println(Calculator.add(12, 12));
+	}
+
+}

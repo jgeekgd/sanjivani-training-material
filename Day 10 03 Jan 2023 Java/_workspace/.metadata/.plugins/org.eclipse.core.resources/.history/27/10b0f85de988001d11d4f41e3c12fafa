@@ -1,0 +1,11 @@
+package usa;
+
+import home.Father;
+
+public class SonFriend {
+	public void accessSonAsset() {
+		Father mrRoy = new Father();
+		System.out.println(mrRoy.mangoTree);
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.revature.features;
+
+public class SwitchCase {
+	public static void main(String[] args) {
+
+		String roomType="LUXURY";
+		switch(roomType) {
+		case "AC":
+		case "DEULUX":
+		case "SUPER DEULUX"
+		case "SUITE":
+		case "LUXURY":
+		}
+		
+	}
+}

@@ -1,0 +1,11 @@
+package usa;
+
+import family.Father;
+
+public class SonFriend {
+	public void accessSonAsset() {
+		Father mrRoy = new Father();
+		mrRoy.
+	}
+
+}

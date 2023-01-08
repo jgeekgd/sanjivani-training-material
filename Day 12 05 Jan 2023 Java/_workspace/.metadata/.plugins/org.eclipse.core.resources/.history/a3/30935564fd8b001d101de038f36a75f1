@@ -1,0 +1,10 @@
+package stringdemo;
+
+public class StringApiDemo {
+
+	public static void main(String[] args) {
+		String sms="Hi";
+		String sm1="Hi";
+	}
+
+}

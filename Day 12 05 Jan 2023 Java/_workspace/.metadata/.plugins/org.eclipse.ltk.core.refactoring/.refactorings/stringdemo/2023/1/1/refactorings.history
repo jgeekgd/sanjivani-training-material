@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static int countSpace(String sms)&apos; from &apos;stringdemo.StringApiDemo.main(...)&apos; to &apos;stringdemo.StringApiDemo&apos;&#x0D;&#x0A;- Original project: &apos;stringdemo&apos;&#x0D;&#x0A;- Method name: &apos;countSpace&apos;&#x0D;&#x0A;- Destination type: &apos;stringdemo.StringApiDemo&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;countSpace&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;stringdemo{StringApiDemo.java" name="countSpace" replace="false" selection="366 151" stamp="1672817039155" version="1.0" visibility="1"/>
+</session>

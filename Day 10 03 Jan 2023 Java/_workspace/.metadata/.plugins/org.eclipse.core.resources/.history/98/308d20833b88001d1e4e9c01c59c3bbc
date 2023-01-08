@@ -1,0 +1,10 @@
+package family;
+
+import family.Father;
+
+public class Son extends Father {
+	public void daughterInLaw() {
+		this.
+	}
+
+}

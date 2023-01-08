@@ -1,0 +1,24 @@
+package com.revature.app;
+
+import com.revature.service.CarService;
+import com.revature.util.Calculator;
+
+public class App {
+
+	CarService carService;
+
+	public static void main(String[] args) {
+
+		// usingCalcaultorUtil();
+
+	}
+
+	private static void usingCalcaultorUtil() {
+		System.out.println(Calculator.add(12, 12));
+		System.out.println(Calculator.div(12, 12));
+		System.out.println(Calculator.mod(12, 12));
+		System.out.println(Calculator.mul(12, 12));
+		System.out.println(Calculator.sub(12, 12));
+	}
+
+}
