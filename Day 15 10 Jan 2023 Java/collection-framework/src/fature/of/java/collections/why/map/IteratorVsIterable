@@ -1,0 +1,25 @@
+If a collection is iterable, then it can be iterated using an iterator (and consequently can be used in a for each loop.) 
+The iterator is the actual object that will iterate through the collection.
+
+Iterable present in java.ḷang package
+Contains only one method iterator()
+
+Iterator present in java.util package
+Contains three method hasNext(), next(), remove()
+
+
+An implementation of Iterable is one that provides an Iterator of itself:
+
+public interface Iterable<T>
+{
+    Iterator<T> iterator();
+}
+An iterator is a simple way of allowing some to loop through a collection of data without assignment privileges (though with ability to remove).
+
+public interface Iterator<E>
+{
+    boolean hasNext();
+    E next();
+    void remove();
+}
+
