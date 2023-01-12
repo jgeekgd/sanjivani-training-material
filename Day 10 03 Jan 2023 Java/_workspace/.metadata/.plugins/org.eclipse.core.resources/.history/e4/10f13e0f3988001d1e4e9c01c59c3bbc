@@ -1,8 +1,0 @@
-package family;
-
-public class Stranger {
-	public static void main(String[] args) {
-
-		House mrRoy=new House(;)
-	}
-}

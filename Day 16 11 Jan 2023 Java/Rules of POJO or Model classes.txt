@@ -1,0 +1,13 @@
+POJO
+
+-- public class meaninful name (NO PROJECT NAME)
+-- create meaningful variables
+-- define correct datatypes;
+-- Mandatory all memeber vairables must be private
+-- Default constructor -- explicity mention it
+-- Parameterized constructor -- explicity mention
+-- Getter & Setter all applicable attributes
+-- overrider toString method
+-- Override hashCode(( and equals() method  --- When you use HashMap, HashTable, HashSet ---
+
+

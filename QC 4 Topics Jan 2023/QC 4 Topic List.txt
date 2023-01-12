@@ -1,0 +1,80 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 9
+Abstract class vs Interface
+Interfaces and its constants & methods - abstract, static and default
+Implementing and extending interfaces - Diamond Problem
+Interface type reference
+Inner Class and Anonymous Classes
+Shadowing fields/variable & Variable Hiding
+Object class
+Object class and its methods to all types
+equals(), == & hashCode(), toString() methods
+Garbage Collection (with finalization)
+
+2nd half: Portfolio Orientation Session.
+
+>>>>>>>>>>>>>>>>>>>> 10
+Exceptions
+Exception Hierarchy
+Checked vs Unchecked Exceptions
+Exception Handling or Declarations
+try, catch, finally, throw and throws
+Multi-catch blocks
+Error
+Stacktrace and logging API
+Custom Exceptions
+Collection API
+Collection without generics Intro
+Lists
+ArrayList and LinkedList
+Sets
+Set Operations
+HashSet and TreeSet
+Comparator interface
+Comparable Interface
+Queues
+ArrayDeque and PriorityQueue
+Maps
+Basic collection algorithms (in Collections class)
+Iterator interface
+Iterable Interface
+Generics
+
+>>>>>>>>>>>>>>>>>>>> 11
+Generics For Class Members
+Generics Method Argument
+Bounded Generic Type (extends, &)
+Wildcard Generic Type (?, ? extends)
+Process and Threads
+Multithreading
+Runnable Interface
+
+2nd Half: Trainer 1-1
+
+>>>>>>>>>>>>>>>>>>>> 12
+Thread Class
+Runnable interface
+States of a Thread
+Creating Thread and making it to Sleep
+Synchronized methods and statements
+Synchronization (Non-access modifiers - synchronized, volatile)
+Producer / Consumer problem
+Deadlock & Starvation - Quick Info
+Enum type
+
+2nd Half: QC
+
+>>>>>>>>>>>>>>>>>>>> 13
+I/O - Byte Stream (File Input & Output Stream) and Character Stream (File Reader & Writer - read and readLine method)
+System.in and System.err and System.out
+Try-with-resources
+Buffered Input and Output Stream - Buffered Reader and Writer - flush method
+File I/O: FileInputStream/FileReader/FileWriter
+Path - relative and absolute path
+File and Directory and Path Separator
+Reading and Writing files
+File copy and move operations
+Random Access File
+Serialization
+Non-access modifiers (transient, native)
+Accessing Environment variables
+Reading Keys from Property file contents

@@ -1,7 +1,0 @@
-package com.revature.app;
-
-public class जीडी {
-	public static void main(String[] args) {
-		System.out.println("जीडी");
-	}
-}

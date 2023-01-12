@@ -1,0 +1,10 @@
+https://en.wikipedia.org/wiki/Apache_Maven
+
+https://central.sonatype.dev/
+https://search.maven.org/stats
+https://search.maven.org/
+
+https://github.com/sonatype-nexus-community
+https://www.sonatype.com/company/
+https://issues.sonatype.org/browse/MVNCENTRAL-1185
+https://gitbox.apache.org/repos

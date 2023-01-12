@@ -1,0 +1,68 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 2 
+COMPNAY HOLIDAY
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 3
+1st Half.
+Athira Induction.
+Infra Projector Furniture Setup.
+
+2nd half:
+Agil Live Standup
+static import
+Non-access modifiers  (static, final)
+Methods and Parameters
+Objects
+Constructors
+Overloading Costructor
+Variable types - instance and class
+Default values instance variables
+Declaration, Instantiation, initialization
+Accessing object fields and methods
+Instance and class member access by each other
+Usage of this keyword - in variable and this constructor
+POJO/Model Classes in java
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 4
+1st Half:
+initialization block (non-static using {....})
+static initialization block
+Static block to initialize static variables
+Parameters - primitive type, reference type
+Method returning value - primitive and reference type
+Call by Value, Call by Reference 
+String API
+String literal and object
+String immutability
+String methods & method chaining
+String Object creation
+String Object initialization - invoking constructor
+String Object invocation - using different constructor
+
+2nd Half:
+PEP session
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 5 
+1st Half: 1-1 Discussion
+2nd Half: 1Hour 1-1
+StringBuffer,StringBuilder
+Wrapper Classes
+Wrapper Objects - Boxing and Unboxing
+Wrapper object methods
+Number types to String conversion & vice versa
+Type conversion - widening and narrowing
+Casting (Explicit & Implicit)
+Inheritance - Object Hierarchy
+instanceof keyword
+Casting objects using sub and super class
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 6
+1st Half: QC
+2nd Half:
+Overriding and hiding methods (using static)
+Polymorphism and Super keyword
+Final class and methods
+Non-access modifiers (abstract)
+Abstract Methods
+Abstract Classes
+Interfaces

@@ -1,9 +1,0 @@
-package basicofinheritance;
-
-public class Father {
-	private String house;
-	private String bankBalance;
-	private String car;
-	
-	
-}

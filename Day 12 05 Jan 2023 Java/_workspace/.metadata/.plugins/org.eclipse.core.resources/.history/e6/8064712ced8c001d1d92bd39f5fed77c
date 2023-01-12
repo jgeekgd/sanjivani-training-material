@@ -1,6 +1,0 @@
-package basicofinheritance;
-
-public class Son extends Father {
-	
-
-}
