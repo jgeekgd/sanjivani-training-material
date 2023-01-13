@@ -66,15 +66,14 @@ Enum type
 >>>>>>>>>>>>>>>>>>>> 13
 I/O - Byte Stream (File Input & Output Stream) and Character Stream (File Reader & Writer - read and readLine method)
 System.in and System.err and System.out
-Try-with-resources
 Buffered Input and Output Stream - Buffered Reader and Writer - flush method
 File I/O: FileInputStream/FileReader/FileWriter
+Reading and Writing files
+Try-with-resources
 Path - relative and absolute path
 File and Directory and Path Separator
-Reading and Writing files
 File copy and move operations
 Random Access File
 Serialization
-Non-access modifiers (transient, native)
+Non-access modifiers (transient, native, strictfp)
 Accessing Environment variables
-Reading Keys from Property file contents

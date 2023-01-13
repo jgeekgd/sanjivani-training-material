@@ -1,0 +1,20 @@
+Microsoft Windows [Version 10.0.19044.2364]
+(c) Microsoft Corporation. All rights reserved.
+
+----------------- Relative Path ----------------------
+C:\Users\GangadharParde>cd ../../
+
+C:\>cd Users
+
+C:\Users>cd GangadharParde
+
+C:\Users\GangadharParde>cd "../../Program Files/Eclipse Adoptium/jdk-8.0.352.8-hotspot/"
+
+C:\Program Files\Eclipse Adoptium\jdk-8.0.352.8-hotspot>
+
+
+----------------- Absolute Path ----------------------
+C:\Program Files\Eclipse Adoptium\jdk-8.0.352.8-hotspot>cd "C:\Windows\System32"
+
+C:\Windows\System32>
+

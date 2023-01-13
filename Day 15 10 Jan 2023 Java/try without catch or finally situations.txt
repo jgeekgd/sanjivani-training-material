@@ -1,0 +1,29 @@
+Try without catch or finally two occasions
+1.
+try{
+	try{
+	} //there is no catch here as outer catch will hand the error. 
+	  //https://www.javatpoint.com/nested-try-block#:~:text=It%20is%20called%20as	%20nested,ArithemeticException%20(division%20by%20zero).
+}
+catch(Exception e){
+
+}
+
+
+and
+
+During try with resource:
+https://www.codejava.net/java-core/the-java-language/using-try-with-resources-examples-java-7
+
+public void copyFile(File sourceFile, File destFile)
+        throws IOException {
+ 
+    try (
+        FileChannel sourceChannel = new FileInputStream(sourceFile).getChannel();
+        FileChannel destChannel = new FileOutputStream(destFile).getChannel();
+    ) {
+ 
+        sourceChannel.transferTo(0, sourceChannel.size(), destChannel);
+ 
+    }
+}
