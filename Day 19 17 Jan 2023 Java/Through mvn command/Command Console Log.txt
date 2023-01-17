@@ -1,0 +1,227 @@
+Microsoft Windows [Version 10.0.19044.2364]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\_iGDDrive\3. Sanjivani Training\sanjivani-training-material\Day 19 17 Jan 2023 Java\Through mvn command>mvn archetype:generate -DgroupId=com.revature.brms -DartifactId=p0-foundational-brms -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 459 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.pom (12 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/3.2.1/maven-archetype-3.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/3.2.1/maven-archetype-3.2.1.pom (13 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.jar (101 kB at 105 kB/s)
+[INFO]
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] >>> maven-archetype-plugin:3.2.1:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO]
+[INFO] <<< maven-archetype-plugin:3.2.1:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO]
+[INFO]
+[INFO] --- maven-archetype-plugin:3.2.1:generate (default-cli) @ standalone-pom ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1/archetype-catalog-3.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1/archetype-catalog-3.2.1.pom (1.9 kB at 3.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-models/3.2.1/archetype-models-3.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-models/3.2.1/archetype-models-3.2.1.pom (2.7 kB at 73 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1/archetype-descriptor-3.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1/archetype-descriptor-3.2.1.pom (2.0 kB at 3.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1/archetype-common-3.2.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1/archetype-common-3.2.1.pom (18 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.4.16/groovy-all-2.4.16.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.4.16/groovy-all-2.4.16.pom (22 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ivy/ivy/2.5.0/ivy-2.5.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ivy/ivy/2.5.0/ivy-2.5.0.pom (6.8 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.pom (4.9 kB at 8.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.pom (11 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.pom (5.3 kB at 9.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.pom (2.8 kB at 4.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom (11 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.1/maven-archiver-3.5.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.1/maven-archiver-3.5.1.pom (5.4 kB at 9.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.3/plexus-archiver-4.2.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.3/plexus-archiver-4.2.3.pom (4.9 kB at 8.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.4/plexus-6.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.4/plexus-6.4.pom (26 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.pom (823 B at 1.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.1/plexus-interactivity-1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.1/plexus-interactivity-1.1.pom (1.7 kB at 3.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.2/maven-script-interpreter-1.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.2/maven-script-interpreter-1.2.pom (4.0 kB at 6.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.3/maven-shared-utils-0.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.3/maven-shared-utils-0.3.pom (4.0 kB at 7.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.0.1/groovy-2.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.0.1/groovy-2.0.1.pom (16 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.1/ant-1.8.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.1/ant-1.8.1.pom (8.8 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.1/ant-parent-1.8.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.1/ant-parent-1.8.1.pom (4.3 kB at 7.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1/archetype-catalog-3.2.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1/archetype-common-3.2.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1/archetype-descriptor-3.2.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ivy/ivy/2.5.0/ivy-2.5.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.4.16/groovy-all-2.4.16.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.2.1/archetype-catalog-3.2.1.jar (19 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.1/maven-archiver-3.5.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.5.1/maven-archiver-3.5.1.jar (26 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.2.1/archetype-descriptor-3.2.1.jar (24 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.jar (9.4 kB at 5.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.2.1/archetype-common-3.2.1.jar (181 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar (33 kB at 17 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.jar (61 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar (8.1 kB at 3.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.2/maven-script-interpreter-1.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar (159 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.0.1/groovy-2.0.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ivy/ivy/2.5.0/ivy-2.5.0.jar (1.4 MB at 490 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.1/ant-1.8.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.2/maven-script-interpreter-1.2.jar (22 kB at 7.2 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.jar (450 kB at 136 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.1/ant-1.8.1.jar (1.5 MB at 325 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.0.1/groovy-2.0.1.jar (3.3 MB at 507 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.4.16/groovy-all-2.4.16.jar (7.2 MB at 798 kB/s)
+[INFO] Generating project in Batch mode
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.pom (1.6 kB at 2.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.4/maven-archetype-bundles-1.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.4/maven-archetype-bundles-1.4.pom (4.5 kB at 7.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.jar (7.1 kB at 13 kB/s)
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: com.revature.brms
+[INFO] Parameter: artifactId, Value: p0-foundational-brms
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] Parameter: package, Value: com.revature.brms
+[INFO] Parameter: packageInPathFormat, Value: com/revature/brms
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] Parameter: package, Value: com.revature.brms
+[INFO] Parameter: groupId, Value: com.revature.brms
+[INFO] Parameter: artifactId, Value: p0-foundational-brms
+[INFO] Project created from Archetype in dir: C:\_iGDDrive\3. Sanjivani Training\sanjivani-training-material\Day 19 17 Jan 2023 Java\Through mvn command\p0-foundational-brms
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:21 min
+[INFO] Finished at: 2023-01-17T11:14:29+05:30
+[INFO] ------------------------------------------------------------------------
+
+C:\_iGDDrive\Through mvn command>cd p0-foundational-brms
+
+C:\_iGDDrive\Through mvn command\p0-foundational-brms>mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ---------------< com.revature.brms:p0-foundational-brms >---------------
+[INFO] Building p0-foundational-brms 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.pom (6.2 kB at 2.9 kB/s)
+[INFO]
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ p0-foundational-brms ---
+[INFO] Deleting C:\_iGDDrive\Through mvn command\p0-foundational-brms\target
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ p0-foundational-brms ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ p0-foundational-brms ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\_iGDDrive\Through mvn command\p0-foundational-brms\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ p0-foundational-brms ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\_iGDDrive\Through mvn command\p0-foundational-brms\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ p0-foundational-brms ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\_iGDDrive\Through mvn command\p0-foundational-brms\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ p0-foundational-brms ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.pom (3.1 kB at 4.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom (2.5 kB at 3.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar (85 kB at 84 kB/s)
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.revature.brms.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in com.revature.brms.AppTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ p0-foundational-brms ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom (4.3 kB at 7.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom (4.6 kB at 7.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom (5.3 kB at 8.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom (4.9 kB at 8.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom (13 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom (5.3 kB at 8.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar (24 kB at 38 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar (86 kB at 60 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar (154 kB at 86 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar (187 kB at 104 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar (426 kB at 223 kB/s)
+[INFO] Building jar: C:\_iGDDrive\Through mvn command\p0-foundational-brms\target\p0-foundational-brms-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ p0-foundational-brms ---
+[INFO] Installing C:\_iGDDrive\Through mvn command\p0-foundational-brms\target\p0-foundational-brms-1.0-SNAPSHOT.jar to C:\Users\GangadharParde\.m2\repository\com\revature\brms\p0-foundational-brms\1.0-SNAPSHOT\p0-foundational-brms-1.0-SNAPSHOT.jar
+[INFO] Installing C:\_iGDDrive\Through mvn command\p0-foundational-brms\pom.xml to C:\Users\GangadharParde\.m2\repository\com\revature\brms\p0-foundational-brms\1.0-SNAPSHOT\p0-foundational-brms-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.727 s
+[INFO] Finished at: 2023-01-17T12:25:32+05:30
+[INFO] ------------------------------------------------------------------------
+
+C:\_iGDDrive\Through mvn command\p0-foundational-brms>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

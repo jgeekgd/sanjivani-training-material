@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: GangadharParde
+Build-Jdk: 17.0.5
+Main-Class: com.revature.app.Application
+Created-By: Maven Integration for Eclipse
+

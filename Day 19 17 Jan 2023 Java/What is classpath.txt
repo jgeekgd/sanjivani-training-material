@@ -1,0 +1,3 @@
+https://javarevisited.blogspot.com/2011/01/how-classpath-work-in-java.html#axzz7q79FthFV
+https://howtodoinjava.com/java-examples/set-classpath-command-line/
+https://howtodoinjava.com/java-examples/java-set-classpath-windows/

@@ -1,0 +1,20 @@
+https://central.sonatype.org/   -- Home page of central reporisoty
+
+Central:
+https://repo.maven.apache.org/   -- actula centralrepositorywhere jar are kept and downloaded from
+https://repo1.maven.org/maven2/
+https://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/5.2.0/
+
+
+Utilities for atifactId search:
+https://search.maven.org/artifact/org.apache.poi/poi-ooxml/5.2.0/jar
+https://search.maven.org/  - -utility given by maven
+https://mvnrepository.com/  - this is not the central repository its just a website by some developer....
+
+
+Local repository:
+C:\Users\<Your login Id>\.m2\repository
+
+
+Additional Public Repositories:
+https://www.deps.co/guides/public-maven-repositories/
