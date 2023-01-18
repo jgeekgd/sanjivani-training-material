@@ -1,0 +1,83 @@
+2023-01-18 02:55:06 DEBUG UserDaoImpl:38 - Added User Details.
+  2023-01-18 02:55:06 DEBUG UserDaoImpl:38 - Added User Details.
+  2023-01-18 03:09:57 DEBUG UserDaoImpl:37 - Added User Details.
+  2023-01-18 03:09:57 DEBUG UserDaoImpl:37 - Added User Details.
+  2023-01-18 11:29:35 DEBUG UserDaoImpl:37 - Added User Details.
+  2023-01-18 11:30:09 DEBUG UserDaoImpl:37 - Added User Details.
+  2023-01-18 11:59:50 DEBUG UserDaoImpl:38 - I wan to inspect Prepared Statement object:com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+  2023-01-18 11:59:50 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 11:59:50 DEBUG UserDaoImpl:38 - I wan to inspect Prepared Statement object:com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **) 
+  2023-01-18 11:59:50 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 12:02:57 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 12:02:56') 
+  2023-01-18 12:02:57 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 12:02:57 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 12:02:57') 
+  2023-01-18 12:02:57 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:03:36 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:03:36') 
+  2023-01-18 14:03:36 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:04:22 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:04:22') 
+  2023-01-18 14:04:22 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:10:32 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:10:32') 
+  2023-01-18 14:10:32 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:12:33 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:12:32') 
+  2023-01-18 14:12:33 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:12:33 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:12:32') 
+  2023-01-18 14:12:33 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:13:57 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:13:56') 
+  2023-01-18 14:13:57 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:13:57 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:13:56') 
+  2023-01-18 14:13:57 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:17:18 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:17:18') 
+  2023-01-18 14:17:18 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:17:18 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:17:18') 
+  2023-01-18 14:17:18 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:20:44 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:20:43') 
+  2023-01-18 14:20:44 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:20:44 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:20:43') 
+  2023-01-18 14:20:44 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:21:40 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:21:39') 
+  2023-01-18 14:21:40 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:21:40 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:21:39') 
+  2023-01-18 14:21:40 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:22:26 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:22:25') 
+  2023-01-18 14:22:26 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:22:26 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:22:25') 
+  2023-01-18 14:22:26 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:23:08 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:23:07') 
+  2023-01-18 14:23:08 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:23:08 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:23:07') 
+  2023-01-18 14:23:08 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:28:12 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:28:11') 
+  2023-01-18 14:28:12 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:28:12 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:28:11') 
+  2023-01-18 14:28:12 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:28:28 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:28:27') 
+  2023-01-18 14:28:28 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:28:28 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:28:27') 
+  2023-01-18 14:28:28 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:31:07 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:31:06') 
+  2023-01-18 14:31:07 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:31:07 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:31:06') 
+  2023-01-18 14:31:07 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:32:22 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:32:21') 
+  2023-01-18 14:32:22 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:32:22 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user2','user2pass@123','2023-01-18 14:32:21') 
+  2023-01-18 14:32:22 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:44:10 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:44:10') 
+  2023-01-18 14:44:10 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:44:59 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:44:59') 
+  2023-01-18 14:45:00 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:45:28 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:45:28') 
+  2023-01-18 14:45:28 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 14:45:38 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 14:45:38') 
+  2023-01-18 14:45:38 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 15:10:25 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 15:10:25') 
+  2023-01-18 15:10:25 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 15:13:23 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 15:13:23') 
+  2023-01-18 15:13:23 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 15:14:42 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 15:14:42') 
+  2023-01-18 15:14:42 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 15:15:16 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 15:15:16') 
+  2023-01-18 15:15:16 INFO  UserDaoImpl:45 - Added User Details.
+  2023-01-18 15:15:58 DEBUG UserDaoImpl:36 - I wan to inspect PreparedStatement object: com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO `gd`.`authentication` (`LOGIN_ID`,`PASSWORD`,`LAST_MODIFIED`) VALUES ('user1','user1pass@123','2023-01-18 15:15:58') 
+  2023-01-18 15:15:58 INFO  UserDaoImpl:45 - Added User Details.
+  
