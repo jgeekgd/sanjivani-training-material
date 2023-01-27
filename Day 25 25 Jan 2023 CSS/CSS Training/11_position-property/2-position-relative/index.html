@@ -1,0 +1,65 @@
+<style>
+  .parent {
+  }
+
+  .child-one {
+    /*
+    Relative allows us to change top right bottom top of this element
+    Overlfow issue might be seen becuase the element is taken out of document and the settings are applied.
+
+    Definition and Usage of left:
+  
+    The left property affects the horizontal position of a positioned element. 
+    This property has no effect on non-positioned elements.
+
+    If position: absolute; or position: fixed; - the left property sets the left edge of an element to a unit to the left of the left edge of its nearest positioned ancestor.
+
+    If position: relative; - the left property sets the left edge of an element to a unit to the left/right of its normal position.
+
+    If position: sticky; - the left property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
+
+    If position: static; (default value of position) - the left property has no effect.
+
+    The same behaviour for top and bottom
+
+    Usually we dont use relative position independently for top,left, right, bottom
+
+    */
+    position: relative;
+    left: 10px;
+    top: 10px;
+  }
+
+  .child-two {
+  }
+
+  .child-three {
+  }
+
+  .parent {
+    padding: 5px;
+    background-color: #00aaff;
+  }
+
+  .child {
+    padding: 5px;
+  }
+
+  .child-one {
+    background-color: rgb(116, 255, 116);
+  }
+
+  .child-two {
+    background-color: rgb(248, 117, 117);
+  }
+
+  .child-three {
+    background-color: rgb(255, 116, 232);
+  }
+</style>
+<div class="parent">
+  Parent
+  <div class="child-one child">One</div>
+  <div class="child-two child">Two</div>
+  <div class="child-three child">Three</div>
+</div>

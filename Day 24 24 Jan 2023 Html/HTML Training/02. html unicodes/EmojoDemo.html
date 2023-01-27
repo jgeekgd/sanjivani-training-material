@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Some relevant title</title>
+    <script>
+      function start() {
+        var maxNoCells = 50;
+        var linkID = 126979;
+
+        var emojiTable = document.getElementById("emojiTable");
+        var newRow = document.createElement("tr");
+        for (var i = 0; i < 2600; i++) {
+          if (i % maxNoCells === 0) newRow = document.createElement("tr");
+          var newNumber = linkID + i;
+          var newCell = document.createElement("td");
+          newCell.setAttribute("title", newNumber);
+          newCell.setAttribute("class", "emoji");
+          newCell.innerHTML = "&#" + newNumber + ";";
+          newRow.appendChild(newCell);
+          emojiTable.appendChild(newRow);
+        }
+      }
+    </script>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .emoji {
+        font-size: xx-large; 
+      }
+    </style>
+  </head>
+  <body onload="start();">
+    <div id="container">
+        <h1 id="header"></h1>
+        <div id="content">
+            <table id="emojiTable"></table>
+        </div>
+    </div>
+</body>
+</html>

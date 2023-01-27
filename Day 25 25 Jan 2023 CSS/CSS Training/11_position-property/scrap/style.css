@@ -1,0 +1,22 @@
+img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.menublue {
+  background-color: #00425a;
+  color: white;
+}
+
+.how-box-model-works {
+  width: 900px;
+  height: 200px;
+  text-align: center;
+  border: 2px solid wheat;
+  /*overflow: scroll;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+}

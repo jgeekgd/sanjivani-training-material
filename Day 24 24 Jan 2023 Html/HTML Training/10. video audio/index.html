@@ -1,0 +1,49 @@
+Ensure You Open this page in live server mode...
+
+<body style="text-align: center; font: medium sans-serif">
+  <section>
+    <div style="width: 720px; display: block; margin: 0 auto">Watch Video:</div>
+    <video controls style="width: 720px; display: block; margin: 0 auto">
+      <source
+        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+        type="video/webm"
+      />
+      <source
+        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+        type="video/mp4"
+      />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+  </section>
+  <br />
+
+  <section>
+    <div style="width: 720px; display: block; margin: 0 auto">The <track> HTML element is used as a child of the media elements, <audio> and <video>. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) — Web Video Text Tracks.</div>
+    <video controls>
+        <source src="friday.mp4" type="video/mp4"/>
+        <track
+        label="English"
+        kind="subtitles"
+        srclang="en"
+        src="friday.vtt"
+        default />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+  </section>
+  <br />
+
+  <section>
+    <div style="width: 720px; display: block; margin: 0 auto">
+      Listen to Music:
+    </div>
+    <audio
+      controls
+      src="noncopyrightmusic.mp3"
+      style="width: 720px; display: block; margin: 0 auto"
+    >
+      Your browser does not support the
+      <code>audio</code> element.
+    </audio>
+  </section>
+
+</body>

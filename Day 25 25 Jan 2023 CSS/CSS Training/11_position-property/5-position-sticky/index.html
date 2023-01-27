@@ -1,0 +1,60 @@
+<style>
+  .parent {
+    position: absolute; /*try commeting one and use another to see difference*/
+    height: 300vh;
+    width: 800vh;
+  }
+
+  .child-one {
+    /*
+    sticky positioned is combination of relative position and fixed position
+
+    As soon as element goes out of page it becomes fixed position.
+    
+    */
+    position: sticky; /*If you only mention this line then it  only act as relative position*/
+    top: 0px; /*After sticky we need to mention this, as soon as the top of this is 0 pixel away from top of screen it will stick to the top of screen. And later if top of this goes farther away from top of screen then it become relative position
+          . Since it act as relative position we dont need to apply margin to the stuff that comes after this element*/
+  }
+
+  .child-two {
+  }
+
+  .child-three {
+  }
+
+  .parent {
+    padding: 5px;
+    background-color: #00aaff;
+  }
+
+  .child {
+    padding: 5px;
+  }
+
+  .child-one {
+    background-color: rgb(116, 255, 116);
+  }
+
+  .child-two {
+    background-color: rgb(248, 117, 117);
+  }
+
+  .child-three {
+    background-color: rgb(255, 116, 232);
+  }
+  .child-four {
+    background-color: rgb(125, 116, 232);
+  }
+  .child-five {
+    background-color: rgb(225, 216, 2);
+  }
+</style>
+<div class="parent">
+  Company Name
+  <div class="child-one child">Home | Services | About Us | Contact Us</div>
+  <div class="child-two child">two</div>
+  <div class="child-three child">Three</div>
+  <div class="child-four child">four</div>
+  <div class="child-five child">five</div>
+</div>

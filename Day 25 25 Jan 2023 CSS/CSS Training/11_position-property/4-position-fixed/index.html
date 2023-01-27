@@ -1,0 +1,74 @@
+<style>
+  .parent {
+    /* position: relative; try commeting one and use another to see difference*/
+    /* position: absolute; try commeting one and use another to see difference */
+    height: 300vh;
+  }
+
+  .child-one {
+    /*
+    fixed positioned element not related to parent container.
+    They are positioned based on entire html element.
+    Even if we scroll the position of the element is fixed. see we have increased height of parent container.
+    if the value was absolute it will not be fixed as we scroll the page.
+
+    */
+    position: fixed;
+    right: 0;
+    top: 250px;
+    color: red;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    inline-size: 60px;
+    overflow-wrap: break-word;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .child-two {
+  }
+
+  .child-three {
+  }
+
+  .parent {
+    padding: 5px;
+    background-color: #00aaff;
+  }
+
+  .child {
+    padding: 5px;
+  }
+
+  .child-one {
+    background-color: #2b477d;
+  }
+
+  .child-two {
+    background-color: rgb(248, 117, 117);
+  }
+
+  .child-three {
+    background-color: rgb(255, 116, 232);
+  }
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: background-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+  }
+  .child-one:hover {
+    background-color: crimson;
+    color: #2b477d;
+  }
+</style>
+<div class="parent">
+  Parent
+  <div class="child-one child"><a href="#">Chat with Expert</a></div>
+  <div class="child-two child">Two</div>
+  <div class="child-three child">Three</div>
+</div>

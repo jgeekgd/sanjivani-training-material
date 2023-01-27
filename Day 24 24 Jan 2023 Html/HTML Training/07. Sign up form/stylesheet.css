@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+input {
+	border-radius: 6px;
+	padding: 5px;
+}
+
+div.button {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: #e51;
+}
+
+form { 
+	width: 720px; 
+	margin: auto;
+	padding: 35px; 
+	border: solid gray 1px;	
+	border-radius: 1px;  
+	box-shadow: 7px 7px 3px goldenrod;
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sticky Position List</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .list-header {
+        position: relative;
+      }
+      /* to support sticky for different browsers which is not case we need to add below and change sticky above line code from sticky to relative*/
+      @supports (position: sticky) {
+        .list-header {
+          position: sticky;
+          top: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="list">
+        <div class="list-group">
+          <div class="list-header">A</div>
+          <div class="list-content">
+            <div>Apple</div>
+            <div>Artichoke</div>
+            <div>Aardvark</div>
+            <div>Ant</div>
+            <div>Acorn</div>
+          </div>
+        </div>
+        <div class="list-group">
+          <div class="list-header">B</div>
+          <div class="list-content">
+            <div>Bird</div>
+            <div>Banana</div>
+            <div>Buzzard</div>
+            <div>Bee</div>
+            <div>Bacon</div>
+          </div>
+        </div>
+        <div class="list-group">
+          <div class="list-header">C</div>
+          <div class="list-content">
+            <div>Caramel</div>
+            <div>Cat</div>
+            <div>Candy</div>
+            <div>Coffee</div>
+          </div>
+        </div>
+        <div class="list-group">
+          <div class="list-header">D</div>
+          <div class="list-content">
+            <div>Dog</div>
+            <div>Date</div>
+            <div>Danish</div>
+            <div>Dandelion</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Side Links Only -->
+    <div class="side-links">
+      <a
+        href="https://youtu.be/xxxx"
+        target="_blank"
+        class="side-link side-link-youtube"
+      >
+        <i class="fab fa-youtube-square side-link-icon"></i>
+        <span class="side-link-text">View Tutorial</span>
+      </a>
+      <a
+        href="https://github.com/xxxx"
+        target="_blank"
+        class="side-link side-link-github side-link-icon"
+      >
+        <i class="fab fa-github-square"></i>
+        <span class="side-link-text">View GitHub</span>
+      </a>
+      <a
+        href="https://twitter.com/xxx"
+        target="_blank"
+        class="side-link side-link-twitter"
+      >
+        <i class="fab fa-twitter-square side-link-icon"></i>
+        <span class="side-link-text">View Twitter</span>
+      </a>
+    </div>
+  </body>
+</html>

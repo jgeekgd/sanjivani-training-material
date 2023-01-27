@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function myFunction() {
+        alert("Submited Data!");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Display an Image as the Submit button</h1>
+
+    <form action="javascript:myFunction();">
+      <label for="fname">First name: </label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Last name: </label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <input
+        type="image"
+        id="image"
+        alt="gd"
+        src="https://interactive-examples.mdn.mozilla.net/media/examples/login-button.png"
+      />
+    </form>
+
+    <p>
+      <b>Note:</b> The input type="image" sends the X and Y coordinates of the
+      click that activated the image button.
+    </p>
+  </body>
+</html>

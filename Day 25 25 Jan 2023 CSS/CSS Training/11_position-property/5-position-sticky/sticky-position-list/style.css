@@ -1,0 +1,110 @@
+.list-header {
+  position: relative;
+}
+
+@supports (position: sticky) {
+  .list-header {
+    position: sticky;
+    top: 0;
+  }
+}
+
+/* Background Styles Only */
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  font-family: Raleway;
+}
+
+body {
+  background-color: #dfdfdf;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  height: 300%;
+}
+
+.content {
+  padding: 10px;
+}
+
+.header-large {
+  color: #00ff6c;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://source.unsplash.com/g5Uh7nP60FA");
+  display: flex;
+  align-items: flex-start;
+}
+
+.main-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgb(51, 51, 51);
+  padding: 5px;
+  color: #00ff6c;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.list-content {
+  padding: 10px 20px;
+}
+
+.list-header {
+  background-color: #333;
+  color: #00ff6c;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.side-links {
+  position: fixed;
+  bottom: 0px;
+  right: 15px;
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: white;
+  width: 130px;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.side-link-youtube {
+  background-color: red;
+}
+
+.side-link-twitter {
+  background-color: #1da1f2;
+}
+
+.side-link-github {
+  background-color: #6e5494;
+}
+
+.side-link-text {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.side-link-icon {
+  color: white;
+  font-size: 30px;
+}

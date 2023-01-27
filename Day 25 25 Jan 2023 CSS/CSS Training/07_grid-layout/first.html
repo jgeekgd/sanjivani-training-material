@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*https://www.w3schools.com/css/css_grid.asp*/
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto; /*https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns*/
+        grid-gap: 10px;
+        background-color: #2196f3;
+        padding: 3px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 100px 20px; /*https://www.w3schools.com/cssref/pr_padding.php*/
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The grid-template-columns Property</h1>
+
+    <p>
+      Use the <em>grid-template-columns</em> property to define the number of
+      columns in the grid layout.
+    </p>
+    <p>This grid layout has four columns:</p>
+
+    <div class="grid-container">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+      <div class="item6">6</div>
+      <div class="item7">7</div>
+      <div class="item8">8</div>
+      <div class="item9">9</div>
+    </div>
+  </body>
+</html>

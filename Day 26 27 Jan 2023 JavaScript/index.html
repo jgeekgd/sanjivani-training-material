@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>The Window Object</h1>
+    <h2>The setInterval() Method</h2>
+
+    <p id="demo"></p>
+
+    <script>
+      const element = document.getElementById("demo");
+      window.setInterval(function () {
+        element.innerHTML += "Hello";
+      }, 1000);
+    </script>
+  </body>
+</html>

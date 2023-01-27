@@ -1,0 +1,29 @@
+*{
+    font-family: "Segoe UI";
+}
+h1, h3 {
+    color: violet;
+    font-family: 'Kaushan Script', cursive;
+}
+h1 {
+    border-style: none;    
+}
+
+img{
+    height: 50%;
+    width: 30%;
+}
+
+.gd {
+    text-align: center;
+  
+}
+
+.gdb {
+    background: #333;
+}
+
+p.center{
+    text-align: center;
+    color: red;
+}

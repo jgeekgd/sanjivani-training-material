@@ -1,0 +1,55 @@
+<style>
+  .parent {
+    /* position: relative; try commeting one and use another to see difference*/
+    /* position: absolute; try commeting one and use another to see difference */
+    height: 900vh;
+  }
+
+  .child-one {
+    /*
+    absolute positioned element is completely ignored from document document flow.
+    absolute position element to absolute position in its own parent container.
+    if you no parent container then it will be absolute position as per viewport.
+
+
+    Usually we dont use relative position independently for top,left, right, bottom
+
+    */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .child-two {
+  }
+
+  .child-three {
+  }
+
+  .parent {
+    padding: 5px;
+    background-color: #00aaff;
+  }
+
+  .child {
+    padding: 5px;
+  }
+
+  .child-one {
+    background-color: rgb(116, 255, 116);
+  }
+
+  .child-two {
+    background-color: rgb(248, 117, 117);
+  }
+
+  .child-three {
+    background-color: rgb(255, 116, 232);
+  }
+</style>
+<div class="parent">
+  Parent
+  <div class="child-one child">One</div>
+  <div class="child-two child">Two</div>
+  <div class="child-three child">Three</div>
+</div>

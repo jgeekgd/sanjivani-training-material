@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up page</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        
+        <form method="post" target="#" onsubmit="return validate()">
+        <h1>Sign up</h1>
+        <p>To be able to use all features of {this} you will require an account. The form below will allow you to create a new account if you don't have one yet.</p>
+        
+      	Name<br>
+      	<input type="text" name="name"><br>
+        Email<br>
+	<input type="text" name="email"><br>
+        Retype email<br>
+      	<input type="text" name="retype_email"><br>
+        Create a password<br>
+	<input type="password" name="password"><br>
+        Retype password<br>
+	<input type="password" name="retype_password"><br>
+        
+        <label>
+          <input type="checkbox" name="terms">By signing up to {this} you agree to your
+           <a href="#service">Terms of Service</a> and <a href="#policy">Privacy Policy</a>
+        </label>
+            
+      	<div class="button">
+          <input type="submit" class="button" value="Set Up Account">
+        </div>
+        
+	</form>
+</body>
+</html>

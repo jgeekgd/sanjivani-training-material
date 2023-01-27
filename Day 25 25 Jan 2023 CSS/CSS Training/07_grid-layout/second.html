@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="header">Header</div>
+  <div class="sidebar">sidebar</div>
+  <div class="content-1">Content-1</div>
+  <div class="content-2">Content-2</div>
+  <div class="content-3">Content-3</div>
+  <div class="footer">Footer</div>
+</div>
+<style>
+  /*https://mozilladevelopers.github.io/playground/css-grid/07-basic-layout*/
+
+  .container {
+    display: grid;
+    width: 750px;
+    height: 600px;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 100px;
+    grid-gap: 1rem;
+  }
+
+  .header {
+    background-color: #555;
+    text-align: center;
+    color: white;
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+  }
+
+  .sidebar {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+  }
+
+  .content-1 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+  }
+
+  .content-2 {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+  }
+
+  .content-3 {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+  }
+
+  .footer {
+    background-color: #521;
+    text-align: center;
+    color: white;
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+  }
+</style>

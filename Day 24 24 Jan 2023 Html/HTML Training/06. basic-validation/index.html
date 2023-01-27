@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Total Form Validation</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+
+<body></body>
+<section>
+  <form action="" method="post">
+    <fieldset>
+      <legend>Enter Personal Details</legend>
+      <div>
+        <label>
+          <span>Name</span>
+          <input name="name" placeholder="ex. John f. Kennedy" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Occupation</span>
+          <input name="occupation" type="text" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>HTML5 Regex (Only Digits)</span>
+          <input required type="text" pattern="\d+" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Email ID</span>
+          <input name="email" class="email" required type="email" />
+        </label>
+      </div>
+
+      <div>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31" required>
+      </div>
+
+      <div>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02" required>
+      </div>
+
+      <div>
+        <label for="meeting-time">Choose a time for your appointment:</label>
+        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2022-05-12T19:30"
+          min="2022-05-07T00:00" max="2022-05-14T00:00">
+      </div>
+
+      <div>
+        <label for="site-search">Search the site:</label>
+        <input type="search" id="site-search" name="q">
+        <button>Search</button>
+      </div>
+
+      <div>
+        <label for="start">Start month:</label>
+        <input type="month" id="start" name="start" min="2022-03" value="2022-05" required>
+      </div>
+
+      <div>
+        <label for="week">Choose a week in May or June:</label>
+        <input type="week" name="week" id="camp-week" min="2022-W01" max="2022-W53" required>
+      </div>
+
+      <div>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5" required>
+      </div>
+
+      <div>
+        <label for="quantity">Multiple of 10):</label>
+        <input type="number" placeholder="Multiple of 10" step="10" min="0" max="100" required>
+      </div>
+
+      <div>
+        <label for="quantity">Height feet (Decimal Values):</label>
+        <input type="number" placeholder="1.0" step="0.1" min="0" max="10" required>
+      </div>
+
+      <div>
+        <label for="soundFile">Select an audio file:</label>
+        <input type="file" id="soundFile" accept="audio/*">
+      </div>
+      <div>
+        <label for="videoFile">Select a video file:</label>
+        <input type="file" id="videoFile" accept="video/*">
+      </div>
+      <div>
+        <label for="imageFile">Select some images:</label>
+        <input type="file" id="imageFile" accept="image/*" multiple>
+      </div>
+
+      <div>
+        <label>
+          <span>Date</span>
+          <input class="date" type="date" name="date" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Time</span>
+          <input class="time" type="time" name="time" required />
+        </label>
+      </div>
+      <div>
+        <label for="pin">Password as PIN (Numeric value): </label>
+        <input id="pin" type="password" inputmode="numeric" minlength="4" maxlength="8" size="8">
+      </div>
+
+      <div>
+        <label>
+          <span>Password</span>
+          <input type="password" name="password" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Repeat password</span>
+          <input type="password" name="password2" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Telephone (xxx-xx-xxx)</span>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Drop down selection</span>
+          <label for="country">Country:</label>
+          <select name="country" id="country">
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">Mexico</option>
+          </select>
+        </label>
+      </div>
+
+
+      <div>
+        <label for="myBrowser">Choose a browser from this Datalist:</label>
+        <input list="browsers" id="myBrowser" name="myBrowser" />
+        <datalist id="browsers">
+          <option value="Chrome">
+          <option value="Firefox">
+          <option value="Internet Explorer">
+          <option value="Opera">
+          <option value="Safari">
+          <option value="Microsoft Edge">
+        </datalist>
+      </div>
+
+      <div>
+        <label for="optgroup">Choose a dinosaur from the Option Group element:</label>
+        <select id="" optgroup>
+          <optgroup label="Group 1">
+            <option>Option 1.1</option>
+          </optgroup>
+          <optgroup label="Group 2">
+            <option>Option 2.1</option>
+            <option>Option 2.2</option>
+          </optgroup>
+          <optgroup label="Group 3" disabled>
+            <option>Option 3.1</option>
+            <option>Option 3.2</option>
+            <option>Option 3.3</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+        <label for="url">Enter an https:// URL:</label>
+        <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+      </div>
+      <div>
+        <label>
+          Select Gender:
+          <input type="radio" name="gender" id="male">
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female">
+          <label for="female">Female</label>
+        </label>
+      </div>
+      <div>
+        <label>
+          Select subjects:
+          <input type="checkbox" name="subject" id="math" />
+          <label for="math">Math</label>
+          <input type="checkbox" name="subject" id="science" />
+          <label for="sceince">Science</label>
+          <input type="checkbox" name="subject" id="english" />
+          <label for="english">English</label>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <span>File upload</span>
+          <input type="file" required />
+        </label>
+      </div>
+      <div>
+        <label for="head">Head</label>
+        <input type="color" id="head" name="head" value="#e66465">
+      </div>
+
+      <div>
+        <label for="body">Body</label>
+        <input type="color" id="body" name="body" value="#f6b73c">
+      </div>
+
+
+
+      <div>
+        <label>
+          <span>Feedback Comments</span>
+          <textarea rows="5" cols="50" name="feedback" id="feedback"></textarea>
+        </label>
+      </div>
+
+      Audio settings:
+
+      <div>
+        <input type="range" id="volume" name="volume" min="0" max="11">
+        <label for="volume">Volume</label>
+      </div>
+
+      <div>
+        <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10">
+        <label for="cowbell">Cowbell</label>
+      </div>
+
+      <div>
+        <label for="ticks">0-100 values with tickmarks</label>
+        <input type="range" list="tickmarks" id="ticks">
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </div>
+
+
+
+    </fieldset>
+    <fieldset>
+      <legend>Agreement</legend>
+      <p>
+        There is a hidden "required" form field below, notice it will not be
+        validated due to its lack of visibility.<br />
+        The reason for this is that sometimes there is a section in a form
+        that is not visible until some user "action" is taken, and changing
+        form fields to be "required" on-the-fly is undesirable.
+      </p>
+      <input type="hidden" id="custId" name="custId" value="007" />
+      <div>
+        <label>
+          <span>Checkbox</span>
+          <input required type="checkbox" />
+          <span> <a href="">I have read & agreed terms and conditions</a></span>
+        </label>
+      </div>
+
+    </fieldset>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+</section>
+</body>
+
+</html>
