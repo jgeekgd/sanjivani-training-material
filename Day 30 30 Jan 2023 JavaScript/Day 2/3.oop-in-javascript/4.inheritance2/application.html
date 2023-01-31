@@ -1,0 +1,18 @@
+This code will not work without VSCode Live Server
+<script defer src="Person.js" type="module"></script>
+<script defer src="Professor.js" type="module"></script>
+<script defer src="Student.js" type="module"></script>
+<script type="module">
+  import Professor from "./Professor.js";
+  import Student from "./Student.js";
+  
+  const walsh = new Professor("Walsh", "Psychology");
+  console.log(walsh.introduceSelf()); // 'My name is Walsh, and I will be your Psychology professor'
+  console.log(walsh.grade("my paper")); // some random grade
+
+  const summers = new Student("Summers", 2);
+  console.log(summers.introduceSelf()); // Hi! I'm Summers, and I'm in year 2.
+  console.log(summers.canStudyArchery()); // true
+  //summers.#year; // Private field not accessible SyntaxError
+</script>
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Auto-refresh DIV element using JavaScript and Ajax</title>
+
+    <style>
+      * {
+        font: 18px Calibri;
+      }
+
+      div,
+      h3 {
+        width: 100%;
+        padding: 10px 0;
+        border: solid 1px #eee;
+        text-align: center;
+      }
+
+      h3 {
+        border: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>
+      Run on VSCode Live Server<br /><br />
+      The stock details below will refresh after
+      <span id="cnt" style="color: red">3</span> Seconds
+    </h3>
+
+    <div id="stock"></div>
+  </body>
+
+  <script>
+    debugger;
+    let i = 0; // Its a just a counter.
+
+    let getData = () => {
+      const oXHR = new XMLHttpRequest();
+
+      // Initiate request.
+      oXHR.onreadystatechange = reportStatus;
+      oXHR.open("GET", "stock-ticker.json", true);
+      //oXHR.setRequestHeader("Content-Type", "application/json");
+      oXHR.send();
+
+      function reportStatus() {
+        // Check if request is complete.
+        if (oXHR.readyState === XMLHttpRequest.DONE && oXHR.status === 200) {
+          let stock = JSON.parse(this.responseText);
+
+          // Refresh DIV with new content.
+          document.getElementById("stock").innerHTML =
+            "Company: " +
+            stock[i].Company +
+            " <br />" +
+            "Current Price: " +
+            stock[i].Current_Price +
+            "<br />" +
+            "Change: " +
+            stock[i].Change;
+
+          i = i + 1;
+          if (i == 4) i = 0;
+        }
+      }
+    };
+
+    getData();
+
+    var counter = 3;
+
+    // The countdown method.
+    window.setInterval(function () {
+      counter--;
+      if (counter >= 0) {
+        var span;
+        span = document.getElementById("cnt");
+        span.innerHTML = counter;
+      }
+      if (counter === 0) {
+        counter = 3;
+      }
+    }, 1000);
+
+    let reload = window.setInterval("getData()", 3000);
+  </script>
+</html>

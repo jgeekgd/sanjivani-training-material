@@ -1,0 +1,19 @@
+<!--
+1. var  -- local scope/global scope
+2. let  -- local block scope
+3. const -- constant scope
+
+-->
+<script>
+  function greeting() {
+    const name = prompt("What is your name?");
+    const message = "Have good day " + name + "!";
+    
+    //message="Hacked"; Uncaught TypeError: invalid assignment to const 'message'
+    
+    console.log(message);
+    alert(message);
+    return message;
+  }
+  greeting();
+</script>

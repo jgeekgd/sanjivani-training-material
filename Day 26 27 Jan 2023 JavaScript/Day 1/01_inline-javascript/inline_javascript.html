@@ -1,0 +1,35 @@
+<a
+  href=""
+  onclick="alert('Hellow World');"
+  >Hello World</a
+>
+<br />
+<a
+  href=""
+  onclick="(
+    function(){
+        for (var prop in window)
+         console.log(prop);
+      })();"
+  >Get All Window Properties</a
+>
+<br />
+Inline event handlers set this equal to the target of the event. You can also
+use anonymous function in inline script
+<br />
+<a
+  href=""
+  onclick="(
+                      function(){
+                        var obj = window;
+                        while(obj){
+                            for(let prop of Reflect.ownKeys(obj)){
+                                console.log(prop);
+                            };
+                            obj = Object.getPrototypeOf(obj);
+                        };
+                                            })();
+                      "
+>
+  Get All windows Keys By Reflection</a
+>

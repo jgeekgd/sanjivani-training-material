@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html
+  style="
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+  "
+>
+  <head>
+    <meta http-equiv="refresh" content="1" />
+  </head>
+  <body>
+    <div style="font-size: x-small">
+      <div>&lt;meta http-equiv="refresh" content="1" /&gt;</div>
+      <div style="font-size: x-small">
+        The http-equiv attribute provides an HTTP header for the
+        information/value of the content attribute.
+      </div>
+      <div>Defines a time interval for the document to refresh itself.</div>
+    </br>
+    </div>
+  </body>
+  <script>
+    let now = new Date();
+
+    console.log(now.getSeconds());
+    document.write("<div>" + now + "</div>");
+  </script>
+</html>

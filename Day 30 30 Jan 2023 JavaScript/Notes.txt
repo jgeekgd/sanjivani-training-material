@@ -1,0 +1,13 @@
+Object in JS==> {}
+const obj1={};
+var obj2={};
+let  obj3={};
+
+//check for colon not equal to 
+const obj1={
+	key:value;
+	variable:value;
+	variable:function(){};
+
+};
+

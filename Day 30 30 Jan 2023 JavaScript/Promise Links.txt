@@ -1,0 +1,7 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+https://medium.com/@pravngaur/javascript-promises-66685250d657
+
+
+
+https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/

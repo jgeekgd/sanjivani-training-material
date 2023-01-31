@@ -1,0 +1,48 @@
+
+https://maven.apache.org/archetypes/index.html
+https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+https://maven.apache.org/ref/3-LATEST/maven-model/maven.html
+https://maven.apache.org/ref/3.8.5/maven-model-builder/super-pom.html
+https://maven.apache.org/plugin-developers/cookbook/attach-source-javadoc-artifacts.html
+
+
+Maven Documentation:
+https://maven.apache.org/skins/
+
+
+
+
+In Maven, you can use Apache Maven Dependency Plugin, goal dependency:purge-local-repository to remove the project dependencies from the local repository, and re-download it again.
+
+https://mkyong.com/maven/how-to-tell-maven-to-use-java-8/
+https://mkyong.com/intellij/convert-a-java-project-to-maven-project-in-intellij-idea/
+https://mkyong.com/maven/no-more-mvn-eclipseeclipse-whats-next/
+https://mkyong.com/maven/maven-display-project-dependency/
+https://mkyong.com/maven/eclipse-code-assist-in-maven-pom-xml/
+
+mvn site
+https://maven.apache.org/guides/mini/guide-site.html
+https://mkyong.com/maven/how-to-generate-a-site-for-your-maven-based-project/
+https://stackoverflow.com/questions/70933738/how-generate-documentation-on-maven
+
+
+Archtype Quick start:
+https://maven.apache.org/archetypes/
+https://maven.apache.org/archetypes/maven-archetype-quickstart/
+
+
+Settings.xml
+https://maven.apache.org/settings.html
+
+
+Misc-
+https://mkyong.com/maven/how-to-create-a-manifest-file-with-maven/
+https://mkyong.com/maven/integrate-maven-with-eclipse-via-external-tool-configuration/
+https://mkyong.com/maven/maven-m2_repo-is-non-modifiable/
+https://mkyong.com/maven/maven-get-source-code-for-jar/
+https://mkyong.com/maven/maven-get-source-code-for-jar/
+
+
+Publish your repo to central repo:
+https://www.youtube.com/watch?v=bxP9IuJbcDQ
+https://central.sonatype.org/publish/publish-maven/#additional-information

@@ -1,0 +1,93 @@
+				BUILD Tool
+
+
+				Java file
+				Compile
+				Execute
+				Unit Testing  --- Junit framework
+				Integration Testing
+				Package --- JAR ( executable and non executable),
+						 WAR, RAR, EAR  ( archieve formats)
+
+				Push to Remote repo
+			
+
+JAR -- Java Archieve
+WAR - Web Archieve
+RAR -- Resource Archieve
+EAR   - Enterprise Archieve
+
+
+
+
+		In windows
+
+			.msi -- interanlly calls to .exe file
+
+			.exe  
+
+Jar---
+2 types
+
+Final prodcut-
+2 options
+
+	1. Give jar + docuementation 
+		<application_name>-<vesion>.jar 
+		<application_name>-<version>-javadoc.jar
+
+	
+	2. Give jar + documentation + source code
+
+		<application_name>-<vesion>.jar 
+		<application_name>-<version>-javadoc.jar
+		<application_name>-<version>-sources.jar
+
+
+
+Version -- <N>.<N>.<N>-SNPASHOT/RELEASE 
+
+		major.minor.bugfix
+
+
+SNPASHOT
+RELEASE 
+
+			indigo-
+
+
+
+		hotel-18-degree-1.0.0-RELEASE.jar
+		hotel-18-degree-1.0.0-javadoc.jar
+
+
+
+
+
+
+
+
+
+
+
+		my-lavish-hotel
+		super-luxury-hotel
+		taj-presidential-suite
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+Non executabel jars ---- aka Libraries
+	
+Apache POI ---->  Used to generate/read/create excel files 	
+Text to PDF ----> iTextPdf   ----->

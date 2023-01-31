@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html onmousemove="showCoords(event)">
+  <body>
+    <p id="details">Move the mouse to see co-ordinates</p>
+    <script>
+      function showCoords(event) {
+        var x = event.clientX;
+        var y = event.clientY;
+        var coords = "X co-ords: " + x + "</br> Y co-ords: " + y;
+        document.getElementById("details").innerHTML = coords;
+      }
+    </script>
+  </body>
+</html>

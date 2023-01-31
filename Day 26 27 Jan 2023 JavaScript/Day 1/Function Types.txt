@@ -1,0 +1,6 @@
+Normal function
+Anonymous function
+Inline function
+Arrow Function
+IIFE (Immediately Invoked Function Expression)
+Callback Function

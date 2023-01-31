@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript Debugger</h2>
+
+    <p id="demo"></p>
+
+    <p>
+      With the debugger turned on, the code below should stop executing before
+      it executes the third line. Press key <mark>F9</mark> to step into code
+      line by line. If you open the page directly, first open console window and
+      later referesh page to start the dubugger.
+    </p>
+
+    <script>
+      let x = 15 * 5;
+      debugger;
+      document.getElementById("demo").innerHTML = x;
+    </script>
+  </body>
+</html>

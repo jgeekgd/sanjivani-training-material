@@ -1,0 +1,34 @@
+<script>
+  // Screen Resolution ≠ Window width
+  // most os changing screen dpi so screen.width mostly return screen size with os dpi for for example my screen resolution is 1920x1080 and windows defult dpi //// is 125 so js screen.width return 1600px
+
+  function gd() {
+    var op =
+      "Your browser screen resolution is (width x height):" +
+      window.screen.width +
+      "px" +
+      window.screen.height +
+      "px";
+    console.log(op);
+    return op;
+  }
+
+  function getResolution() {
+    var op =
+      "Your OS screen resolution is: " +
+      window.screen.width * window.devicePixelRatio +
+      "x" +
+      window.screen.height * window.devicePixelRatio;
+    console.log(op);
+    return op;
+  }
+  alert(gd());
+
+  alert(getResolution());
+</script>
+
+<body>
+  <a href="https://www.mydevice.io/#compare-devices">https://www.mydevice.io</a>
+  <br />
+  <a href="http://howbigismybrowser.com/">http://howbigismybrowser.com/</a>
+</body>

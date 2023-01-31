@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <style>
+      * {
+        font: 18px Calibri;
+      }
+      table {
+        width: 90%;
+      }
+      table,
+      th,
+      td {
+        border: solid 1px #dddddd;
+        border-collapse: collapse;
+        padding: 2px 3px;
+        text-align: center;
+      }
+      th {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Please run this code on VSCode Live Server</h2>
+
+    <p>
+      <input type="button" value="Show JSON data in Table" id="bt" />
+    </p>
+    <div id="showData"></div>
+
+    <p id="tpage" style="display: none">
+      Extracting data from an External JSON file to create a table - jQuery
+    </p>
+  </body>
+
+  <script>
+    $("#bt").click(function () {
+      $.getJSON("stock-ticker.json", function (data) {
+        let keys;
+        let items = [];
+
+        $.each(data, function (index, value) {
+          keys = Object.keys(value);
+          items.push(value);
+        });
+
+        let table = document.createElement("table");
+        let tr = table.insertRow(-1);
+
+        // First, create table header.
+        for (let i = 0; i < keys.length; i++) {
+          let th = document.createElement("th");
+          th.innerHTML = keys[i];
+          tr.appendChild(th);
+        }
+
+        // Now, show the details in rows and columns.
+        for (let k = 0; k < items.length; k++) {
+          tr = table.insertRow(-1);
+
+          for (let j = 0; j < keys.length; j++) {
+            let tabCell = tr.insertCell(-1);
+
+            // Check if its a negative number.
+            // Math.sign() method is a new ES6 feature, to check if a number is positive or negative.
+
+            if (Math.sign(items[k][keys[j]]) === -1) {
+              tabCell.innerHTML =
+                '<span style="color:  ;">' + items[k][keys[j]] + "</span>";
+            } else {
+              tabCell.innerHTML = items[k][keys[j]];
+            }
+          }
+        }
+
+        // Add the newly created table to the DIV element.
+        let eleShow = document.getElementById("showData");
+        eleShow.innerHTML = "";
+        eleShow.appendChild(table);
+
+        $("#tpage").attr("style", "display:block;");
+      });
+    });
+  </script>
+</html>

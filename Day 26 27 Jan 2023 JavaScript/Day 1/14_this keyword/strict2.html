@@ -1,0 +1,13 @@
+<script>
+  "use strict";
+  var x = this; //Here, this refers to the Global object [object Window]
+  console.log(x);
+  alert(x);
+  ("use strict");
+  function myFunction() {
+    return this; //Here,  this is undefined.
+  }
+
+  console.log(myFunction());
+  alert(myFunction());
+</script>

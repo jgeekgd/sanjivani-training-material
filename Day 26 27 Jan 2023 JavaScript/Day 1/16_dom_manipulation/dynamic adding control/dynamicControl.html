@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Some relevant title</title>
+    <script>
+      function m1() {
+        for (var i = 0; i < 2; i++) {
+          const button = document.createElement("button");
+          button.innerText = "m1 Button " + i;
+          button.onclick = function () {
+            console.log(  i);
+          };
+          document.body.appendChild(button);
+        }
+        console.log(i); // 2
+      }
+
+      function m2() {
+        for (var i = 0; i < 2; i++) {
+          const button = document.createElement("button");
+          button.innerText = "m2 Button " + i;
+          button.onclick = (function (copyOfI) {
+            return () => {
+              console.log(copyOfI);
+            };
+          })(i);
+          document.body.appendChild(button);
+          console.log(i); // 2
+        }
+      }
+
+      function m3() {
+        for (let i = 0; i < 2; i++) {
+          const button = document.createElement("button");
+          button.innerText = "Button " + i;
+          button.onclick = function () {
+            console.log(i);
+          };
+          document.body.appendChild(button);
+        }
+        //console.log(i); // Uncaught ReferenceError: i is not defined.
+      }
+    </script>
+  </head>
+  <body onload="m1();m2();m3();"></body>
+</html>

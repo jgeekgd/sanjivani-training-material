@@ -1,0 +1,26 @@
+<script type="text/javascript" src="script.js"></script>
+
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+  <p>
+    Why do I get an error or Uncaught TypeError: Cannot set property 'innerHTML'
+    of null?
+    <br />
+    The browser always loads the entire HTML DOM from top to bottom. Any
+    JavaScript code written inside the script tags (present in head section of
+    your HTML file) gets executed by the browser rendering engine even before
+    your whole DOM (various HTML element tags present within body tag) is
+    loaded. The scripts present in head tag are trying to access an element
+    having id hello even before it has actually been rendered in the DOM. So
+    obviously, JavaScript failed to see the element and hence you end up seeing
+    the null reference error.
+  </p>
+
+  <div id="currentDateTime">
+    <script type="text/javascript">
+      what();
+      function what() {
+        document.getElementById("currentDateTime").innerHTML = getDateTime();
+      }
+    </script>
+  </div>
+</body>

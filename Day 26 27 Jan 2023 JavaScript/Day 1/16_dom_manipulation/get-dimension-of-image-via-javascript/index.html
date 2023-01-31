@@ -1,0 +1,32 @@
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+  <div id="dimensions"></div>
+  <div id="logo"></div>
+  <script type="text/javascript">
+    what();
+    addImageDynamically();
+
+    function what() {
+      // program to get the dimensions of an image
+      const img = new Image();
+      // get the image
+      img.src =
+      "https://design.firefox.com/product-identity/firefox-developer-edition/firefox-logo-developer-edition.png";
+      // get height and width
+      img.onload = function () {
+        console.log("width: " + this.width);
+        console.log("height: " + this.height);
+        document.getElementById("dimensions").innerHTML =
+          "Original Image Dimenstions : width x heigth: " + this.width + "x" + this.height;
+      };
+      
+    }
+    function addImageDynamically(){
+        var img = document.createElement("img");
+        img.style.height='121px';
+        img.style.width='125px';
+        img.src = "https://design.firefox.com/product-identity/firefox-developer-edition/firefox-logo-developer-edition.png";
+        var src = document.getElementById("logo");
+        src.appendChild(img);
+    }
+  </script>
+</body>

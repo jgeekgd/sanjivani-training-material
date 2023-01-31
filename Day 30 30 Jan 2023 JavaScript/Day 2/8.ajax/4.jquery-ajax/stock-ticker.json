@@ -1,0 +1,38 @@
+[
+  
+	{
+    "Company": "Amazon",
+    "Current_Price": 3277.4, 
+    "Change": "15.51"
+	},
+  
+	{
+    "Company": "Google",
+    "Current_Price": 1296.25, 
+    "Change": "+2.1"
+	},
+
+	{
+    "Company": "Cisco",
+    "Current_Price": 47.29, 
+    "Change": "-0.29"
+	},
+
+	{
+    "Company": "SBI",
+    "Current_Price": 399.00, 
+    "Change": "+5.85"
+	},
+
+	{
+    "Company": "Apple Inc.",
+    "Current_Price": 135.37, 
+    "Change": "+0.24"
+	},
+
+	{
+    "Company": "IBM",
+    "Current_Price": 120.80, 
+    "Change": "-0.11"
+	}
+]

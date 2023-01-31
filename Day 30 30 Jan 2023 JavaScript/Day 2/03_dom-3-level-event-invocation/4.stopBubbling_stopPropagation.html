@@ -1,0 +1,23 @@
+<html onclick="alert(`HTML Clicked`)">
+  <head>
+    <style>
+      body * {
+        margin: 10px;
+        border: 1px solid blue;
+      }
+    </style>
+  </head>
+  <body onclick="alert(`BODY Clicked`)">
+    <form onclick="alert('FORM Clicked')">
+      FORM
+
+      <div onclick="alert('DIV Clicked')">
+        DIV
+        <div onclick="event.stopPropagation()">
+          Click Here No Bubbling Will Happen
+          <p onclick="alert('P Clicked')">Para</p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

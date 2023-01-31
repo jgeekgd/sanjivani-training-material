@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>strict mode</h1>
+	
+	<p id="errorMessage"></p>
+	
+	<script>
+		'use strict';
+		try
+		{
+			var x = 16; // valid in strict mode
+			y = 10; // error
+		}
+		catch(ex)
+		{
+			document.getElementById("errorMessage").innerHTML = ex;
+		}
+
+    </script>
+</body>
+</html>

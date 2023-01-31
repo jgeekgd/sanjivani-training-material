@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Get Screen Resolution of Mobile Devices with JavaScript</title>
+</head>
+<body>
+    <script>
+    function getResolution() {
+        alert("Your screen resolution is: " + window.screen.width * window.devicePixelRatio + "x" + window.screen.height * window.devicePixelRatio);
+    }
+    </script>
+     
+    <button type="button" onclick="getResolution();">Get Resolution</button>
+</body>
+</html>

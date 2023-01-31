@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>
+      This example uses the addEventListener() method to add two click events to
+      the same button. However, the stopImmediatePropagation() method
+      <b>stops</b> the second event handler from being executed.
+    </p>
+
+    <p>
+      <strong>Note:</strong> The stopImmediatePropagation() method is not
+      supported in IE8 and earlier versions.
+    </p>
+
+    <button id="myBtn">Try it</button>
+
+    <script>
+      function myFunction(event) {
+        alert("Hello World!");
+        //event.stopPropagation(); //This will not stop the someOtherFunction() propogation hence need to add below method
+        event.stopImmediatePropagation(); // Try to remove me
+      }
+
+      function someOtherFunction() {
+        alert("I will not get to say Hello World");
+      }
+
+      var x = document.getElementById("myBtn");
+      x.addEventListener("click", myFunction);
+      x.addEventListener("click", someOtherFunction);
+    </script>
+  </body>
+</html>
