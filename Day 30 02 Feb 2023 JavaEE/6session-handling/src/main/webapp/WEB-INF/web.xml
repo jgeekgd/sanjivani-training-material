@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://JAVA.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<!-- #################### Hidden Form Fields ############################# -->
+	<servlet>
+		<servlet-name>WelcomeHiddenFormField</servlet-name>
+		<servlet-class>com.hidden.form.field.WelcomeHiddenFormField
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WelcomeHiddenFormField</servlet-name>
+		<url-pattern>/WelcomeHiddenFormField</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>InboxHiddenFormField</servlet-name>
+		<servlet-class>com.hidden.form.field.InboxHiddenFormField
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InboxHiddenFormField</servlet-name>
+		<url-pattern>/InboxHiddenFormField</url-pattern>
+	</servlet-mapping>
+
+	<!-- #################### Url Rewriting ############################# -->
+
+	<servlet>
+		<servlet-name>WelcomeUrlRewriting</servlet-name>
+		<servlet-class>com.urlrewriting.WelcomeUrlRewriting</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WelcomeUrlRewriting</servlet-name>
+		<url-pattern>/WelcomeUrlRewriting</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>InboxUrlRewriting</servlet-name>
+		<servlet-class>com.urlrewriting.InboxUrlRewriting</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InboxUrlRewriting</servlet-name>
+		<url-pattern>/InboxUrlRewriting/*</url-pattern>
+	</servlet-mapping>
+
+	<!-- #################### Cookies ############################# -->
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.cookies.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.cookies.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+
+	<!-- #################### HttpSession API ############################# -->
+
+
+	<servlet>
+		<servlet-name>WelcomeServlet</servlet-name>
+		<servlet-class>com.http.session.api.WelcomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WelcomeServlet</servlet-name>
+		<url-pattern>/WelcomeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Inbox</servlet-name>
+		<servlet-class>com.http.session.api.Inbox</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Compose</servlet-name>
+		<servlet-class>com.http.session.api.Compose</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sent</servlet-name>
+		<servlet-class>com.http.session.api.Sent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.http.session.api.Logout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Inbox</servlet-name>
+		<url-pattern>/Inbox</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Compose</servlet-name>
+		<url-pattern>/Compose</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sent</servlet-name>
+		<url-pattern>/Sent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+
+</web-app>

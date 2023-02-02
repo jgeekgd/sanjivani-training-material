@@ -1,0 +1,22 @@
+The exception is normally an object that is thrown at runtime. Exception Handling is the process to handle the runtime errors. There may occur exception any time in your web application. So handling exceptions is a safer side for the web developer. In JSP, there are two ways to perform exception handling:
+By errorPage and isErrorPage attributes of page directive
+By <error-page> element in web.xml file
+
+example1:
+Example of exception handling in jsp by the elements of page directive
+
+In this case, you must define and create a page to handle the exceptions, as in the error.jsp page. The pages where may occur exception, define the errorPage attribute of page directive, as in the process.jsp page.
+There are 3 files:
+index.jsp for input values
+process.jsp for dividing the two numbers and displaying the result
+error.jsp for handling the exception
+
+example2:
+Example of exception handling in jsp by specifying the error-page element in web.xml file
+
+This approach is better because you don't need to specify the errorPage attribute in each jsp page. Specifying the single entry in the web.xml file will handle the exception. In this case, either specify exception-type or error-code with the location element. If you want to handle all the exception, you will have to specify the java.lang.Exception in the exception-type element. Let's see the simple example:
+There are 4 files:
+web.xml file for specifying the error-page element
+index.jsp for input values
+process.jsp for dividing the two numbers and displaying the result
+error.jsp for displaying the exception

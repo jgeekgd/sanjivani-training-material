@@ -1,0 +1,27 @@
+JSTL (JSP Standard Tag Library)
+The JSP Standard Tag Library (JSTL) represents a set of tags to simplify the JSP development. There JSTL mainly provides 5 types of tags:
+
+core tags: The JSTL core tag provide variable support, URL management, flow control etc. The url for the core tag is http://java.sun.com/jsp/jstl/core . The prefix of core tag is c.
+sql tags: The JSTL sql tags provide SQL support. The url for the sql tags is http://java.sun.com/jsp/jstl/sql and prefix is sql.
+xml tags: The xml sql tags provide flow control, transformation etc. The url for the xml tags is http://java.sun.com/jsp/jstl/xml and prefix is x.
+internationalization tags: The internationalization tags provide support for message formatting, number and date formatting etc. The url for the internationalization tags is http://java.sun.com/jsp/jstl/fmt and prefix is fmt.
+functions tags: The functions tags provide support for string manipulation and string length. The url for the functions tags is http://java.sun.com/jsp/jstl/functions and prefix is fn.
+
+For creating JSTL application, you need to load jstl.jar file.
+JSTL Core Tags
+
+The JSTL core tags mainly provides 4 types of tags:
+
+miscellaneous tags: catch and out.
+url management tags: import, redirect and url.
+variable support tags: remove and set.
+flow control tags: forEach, forTokens, if and choose.
+Syntax for defining core tags
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+c:out
+It is just like JSP expression tag but it is used for exression. It renders data to the page.
+
+c:import
+It is just like jsp include but it can include the content of any resource either within server or outside the server.

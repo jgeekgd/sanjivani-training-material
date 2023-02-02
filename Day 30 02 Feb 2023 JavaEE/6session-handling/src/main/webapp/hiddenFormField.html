@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Hidden Form Field Demo</title>
+</head>
+<body style="font-family: Rockwell, Segoe UI, serif;">
+	2.Hidden Form Fields
+	</br>
+	<form method="post" action="WelcomeHiddenFormField">
+		User:<input type="text" name="user" /><br /> Password:<input
+			type="text" name="pass"><br /> <input type="submit"
+			value="submit">
+	</form>
+	</br>
+	</br>
+	<div
+		style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; font-size: 10px">
+		HTML Hidden Field: <br> We can create a unique hidden field in
+		the HTML and when user starts navigating, we can set its value unique
+		to the user and keep track of the session. This method can't be used
+		with links because it needs the form to be submitted every time
+		request is made from client to server with the hidden field. Also it's
+		not secure because we can get the hidden field value from the HTML
+		source and use it to hack the session.
+	</div>
+	</br>
+	</br>
+	<a href="index.html">Back</a></br>
+</body>
+</html>

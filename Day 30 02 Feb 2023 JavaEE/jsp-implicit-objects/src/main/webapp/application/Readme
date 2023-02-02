@@ -1,0 +1,4 @@
+In JSP, exception is an implicit object of type java.lang.Throwable class. 
+This object can be used to print the exception.
+But it can only be used in error pages.
+It is better to learn it after page directive. Let's see a simple example:

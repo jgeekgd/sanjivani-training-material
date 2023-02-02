@@ -1,0 +1,1 @@
+In JSP, config is an implicit object of type ServletConfig. This object can be used to get configuration information for a particular JSP page.This variable information can be used for one jsp page only.

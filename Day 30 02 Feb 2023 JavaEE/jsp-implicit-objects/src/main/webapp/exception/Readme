@@ -1,0 +1,1 @@
+In JSP, application is an implicit object of type ServletContext.This object can be used to get configuration information from configuaration file(web.xml). This variable information can be used for all jsp pages.

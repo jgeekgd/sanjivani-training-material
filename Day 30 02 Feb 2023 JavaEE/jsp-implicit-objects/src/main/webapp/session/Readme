@@ -1,0 +1,2 @@
+In JSP, session is an implicit object of type HttpSession.
+The Java developer can use this object to set,get or remove attribute or to get session information.

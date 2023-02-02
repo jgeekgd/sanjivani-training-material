@@ -1,0 +1,8 @@
+page implicit object:
+
+In JSP, page is an implicit object of type Object class.This object is assigned to the reference of auto generated servlet class. It is written as:
+Object page=this;
+For using this object it must be cast to Servlet type.For example:
+<% (HttpServlet)page.log("message"); %>
+Since, it is of type Object it is less used because you can use this object directly in jsp.For example:
+<% this.log("message"); %>

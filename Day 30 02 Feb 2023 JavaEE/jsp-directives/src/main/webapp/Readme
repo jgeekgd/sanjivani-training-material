@@ -1,0 +1,4 @@
+The directives are messages that tells the web container how to translate a JSP page into corresponding servlet.There are three types of directives:
+page directive
+include directive
+taglib directive

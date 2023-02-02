@@ -1,0 +1,93 @@
+There are many JSP action tags or elements. Each tag is used to perform some specific tasks. The action tags basically are used to control the flow between pages and to use Java Bean. Jsp action tags are as follows:
+jsp:forward
+jsp:include
+jsp:useBean
+jsp:setProperty
+jsp:getProperty
+jsp:plugin
+jsp:param
+jsp:fallback
+The jsp:useBean, jsp:setProperty and jsp:getProperty tags are used for bean development. So we will see these tags in bean developement.
+
+
+1)jsp:forward action tag
+The jsp:forward action tag is used to forward the request to another resource it may be jsp, html or another resource.
+Syntax of jsp:forward action tag without parameter
+	<jsp:forward page="relativeURL | <%= expression %>" />
+
+Syntax of jsp:forward action tag with parameter
+	<jsp:forward page="relativeURL | <%= expression %>">
+	<jsp:param name="parametername" value="parametervalue | <%=expression%>" />
+	</jsp:forward>
+
+2)jsp:include action tag
+The jsp:forward action tag is used to include the content of another resource it may be jsp, html or servlet. The jsp include action tag includes the resource at request time so it is better for dynamic pages because there might be changes in future.
+Advantage of jsp:include action tag
+code reusability
+Syntax of jsp:include action tag without parameter
+	<jsp:include page="relativeURL | <%= expression %>" />
+
+Syntax of jsp:include action tag with parameter
+	<jsp:include page="relativeURL | <%= expression %>">
+	<jsp:param name="parametername" value="parametervalue | <%=expression%>" />
+	</jsp:forward>
+
+---------------------------------------------------------------------------
+
+Java Bean
+A Java Bean is a java class that should follow following conventions:
+It should have a no-arg constructor.
+It should be Serializable.
+It should provide methods to set and get the values of the properties, known as getter and setter methods.
+
+Why use Java Bean?
+According to Java white paper, it is a reusable software component. A bean encapsulates many objects into one object, so we can access this object from multiple places. Moreover, it provides the easy maintenance.
+
+3)jsp:useBean action tag 
+The jsp:useBean action tag is used to locate or instantiate a bean class. If bean object of the Bean class is already created, it doesn't create the bean depending on the scope. But if object of bean is not created, it instantiates the bean.
+Syntax of jsp:useBean action tag
+<jsp:useBean id= "instanceName" scope= "page | request | session | application" 
+class= "packageName.className" type= "packageName.className"
+beanName="packageName.className | <%= expression >" >
+</jsp:useBean>
+
+Attributes and Usage of jsp:useBean action tag
+
+id: is used to identify the bean in the specified scope.
+scope: represents the scope of the bean. It may be page, request, session or application. The default scope is page.
+page: specifies that you can use this bean within the JSP page. The default scope is page.
+request: specifies that you can use this bean from any JSP page that processes the same request. It has wider scope than page.
+session: specifies that you can use this bean from any JSP page in the same session whether processes the same request or not. It has wider scope than request.
+application: specifies that you can use this bean from any JSP page in the same application. It has wider scope than session.
+class: instantiates the specified bean class (i.e. creates an object of the bean class) but it must have no-arg or no constructor and must not be abstract.
+type: provides the bean a data type if the bean already exists in the scope. It is mainly used with class or beanName attribute. If you use it without class or beanName, no bean is instantiated.
+beanName: instantiates the bean using the java.beans.Beans.instantiate() method
+
+4)jsp:setProperty and jsp:getProperty action tags
+The setProperty and getProperty action tags are used for developing web application with Java Bean. In web devlopment, bean class is mostly used because it is a reusable software component that represents data.
+The jsp:setProperty action tag sets a property value or values in a bean using the setter method.
+
+Syntax of jsp:setProperty action tag
+<jsp:setProperty name="instanceOfBean" property= "*"   | 
+property="propertyName" param="parameterName"  | 
+property="propertyName" value="{ string | <%= expression %>}" 
+/>
+
+Example of jsp:setProperty action tag if you have to set all the values of incoming request in the bean
+<jsp:setProperty name="bean" property="*" />
+
+Example of jsp:setProperty action tag if you have to set value of the incoming specific property
+<jsp:setProperty name="bean" property="username" /> 
+
+Example of jsp:setProperty action tag if you have to set a specific value in the property
+<jsp:setProperty name="bean" property="username" value="Kumar" />
+
+jsp:getProperty action tag
+The jsp:getProperty action tag returns the value of the property.
+Syntax of jsp:getProperty action tag
+<jsp:getProperty name="instanceOfBean" property="propertyName" />
+
+Simple example of jsp:getProperty action tag
+<jsp:getProperty name="obj" property="name" />
+
+

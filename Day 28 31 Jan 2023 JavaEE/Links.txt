@@ -1,0 +1,26 @@
+Java Servlets Architecture:
+https://javaconceptoftheday.com/java-servlets-architecture/
+
+Java Servlet API:
+https://javaconceptoftheday.com/java-servlet-api/
+
+Complete Concepts Understandings:
+https://www.techguruspeaks.com/servletcontext-session-and-request-attributes/
+https://maddelasreenivasareddy.medium.com/servlets-and-jsp-in-java-e13538182526
+
+
+Tomcat:
+https://en.wikipedia.org/wiki/Apache_Tomcat
+https://blog.devgenius.io/apache-tomcat-challenges-install-configure-start-working-ssl-and-other-goodies-95f519cb4926
+
+
+Jetty:
+https://en.wikipedia.org/wiki/Jetty_(web_server)
+
+
+
+Optional References:
+
+https://stackoverflow.com/questions/30535565/what-is-the-difference-between-tomcat-and-tomee-tomee-and-tomee-plus
+https://www.slideshare.net/Romanik/websphere-app-server-vs-jboss-vs-weblogic-vs-tomcat-interconnect-2016
+https://tomee.apache.org/comparison.html

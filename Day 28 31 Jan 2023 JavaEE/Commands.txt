@@ -1,0 +1,99 @@
+src/main/java	Application/Library sources
+src/main/resources	Application/Library resources
+src/test/java	Test sources
+src/test/resources	Test resources
+
+
+
+
+Repositories:
+Central:
+https://repo.maven.apache.org/maven2
+https://repo1.maven.org/maven2/
+https://central.sonatype.org/
+https://search.maven.org/
+
+Local:
+
+C:\Users\<YourLogin>\.m2
+
+
+
+
+
+
+mvn archetype:generate 
+	-DgroupId={project-packaging}
+	-DartifactId={project-name}
+	-DarchetypeArtifactId={maven-template} 
+	-DinteractiveMode=false
+
+
+The Archtype are associated with what all folder structures will be created depending upon yout project type:
+
+maven-archetype-quickstart	-------- An archetype to generate a sample Maven project.
+maven-archetype-webapp	-------------- An archetype to generate a sample Maven Webapp project.
+
+
+mvn archetype:generate 
+	-DgroupId=com.gd
+	-DartifactId=hotel-18-degree
+	-DarchetypeArtifactId=maven-archetype-quickstart 
+	-DinteractiveMode=false
+
+
+
+
+
+
+
+
+
+
+
+ -DgroupId=com.gd -DartifactId=hotel-18-degree -DarchetypeArtifactId=maven-archetype-quickstart  -DinteractiveMode=false
+
+
+
+
+
+
+
+
+------------------------------------
+
+
+
+Check version:
+mvn --version or
+mvn -v
+
+Donwload initiall required files:
+mvn archetype:generate 
+Create interactive core java project using maven:
+mvn archetype:generate 
+
+mvn compile --->generates target folder which has classes folder comprising of all your .class files.
+mvn package   ----> in target folder you see hotel-18-degree-1.0.0-SNAPSHOT.jar
+
+Non interactive way of creating application-
+mvn archetype:generate -DgroupId=com.gd -DartifactId=taj-presedential-suite -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+Download all dependencies backup including sources and javadoc
+mvn clean 
+mvn package dependency:copy-dependencies 
+mvn package dependency:copy-dependencies -Dclassifier=sources 
+mvn package dependency:copy-dependencies -Dclassifier=javadoc
+mvn dependency:tree
+
+
+
+
+
+Text files created on DOS/Windows machines have different line endings than files created on Unix/Linux. DOS uses carriage return and line feed ("\r\n") as a line ending, which Unix uses just line feed ("\n").
+
+
+
+
+

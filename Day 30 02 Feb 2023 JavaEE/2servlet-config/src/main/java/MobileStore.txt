@@ -1,0 +1,4 @@
+Samsung,Samsung Galaxy S4 GT (White),34500
+Nokia,Nokia Lumia 920 (White),31499
+Nokia,Sony Xperia Z C6602 (Purple),32999
+Apple,Apple iPhone 5-64GB(White),58800
