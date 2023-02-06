@@ -1,0 +1,8 @@
+https://www.logicbig.com/tutorials/misc/typescript.html
+
+https://levelup.gitconnected.com/start-writing-your-own-typescript-method-decorators-c921cdc3d1c1
+
+https://www.logicbig.com/tutorials/misc/typescript/method-decorator.html
+
+
+https://www.javascripture.com/PropertyDescriptor#:~:text=A%20PropertyDescriptor%20describes%20a%20property,treated%20as%20undefined%20or%20false%20.
