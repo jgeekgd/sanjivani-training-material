@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gd.model">
+	<class name="Employee" table="GD_EMPLOYEE">
+		<id name="employeeId" column="employee_id">
+			<generator class="identity" />
+		</id>
+		<property name="employeeName" type="string" column="employee_name" length="100" />
+		<property name="email" type="string" column="email" />
+		<property name="doj" type="date" column="date_of_joining" />
+		<property name="salary" type="double" column="salary" />
+	</class>
+</hibernate-mapping>

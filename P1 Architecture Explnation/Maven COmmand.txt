@@ -1,0 +1,20 @@
+https://www.geeksforgeeks.org/embedding-tomcat-server-in-maven-project/
+
+clean tomcat7:run
+
+Ensure port 8080 is available and use correct context path:
+
+http://localhost:8080/hotel-18-degree
+
+
+
+Do check the created jsp servelt class
+-If index.jsp file then index_jsp.java file you will find  under:
+java-ee\p1-tfms\target\tomcat\work\Tomcat\localhost\hotel-18-degree\org\apache\jsp folder
+
+
+you can find methods like below:
+_jspinit()
+_jspservice()
+_jspdistory()
+

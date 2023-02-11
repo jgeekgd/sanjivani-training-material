@@ -1,0 +1,5 @@
+How to convert angular-cli.json to angular.json
+
+npm install -g @angular/cli@latest
+npm install @angular/cli@latest
+ng update @angular/cli@latest

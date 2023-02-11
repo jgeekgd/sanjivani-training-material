@@ -1,0 +1,3 @@
+Tour of Heroes: completed application
+https://angular.io/generated/live-examples/toh-pt6/stackblitz.html
+https://angular.io/generated/zips/toh-pt6/toh-pt6.zip

@@ -1,0 +1,55 @@
+Authentication  --  login/password and I am valid user
+Authorization  -- after I login what all i can do
+ -  OAuth   -- we do authorization
+ - JWT   -- Jason web token  - you provision access to restful endpoints 
+
+
+	Every one will have access to below urls
+	localhost:4000/login
+	localhost:4000/search
+
+	Only successfully login users will have access to this
+	localhost:4000/order
+	localhost:4000/invoice
+	localhost:4000/updateAddress
+	localhost:4000/addAddress
+-----------------------------------------------------------------------------------
+<!--
+Sometimes, we don’t need a FormGroup, as our form might only consist of a single form control. Think of a search field that let’s you search for products in an e-commerce application. Technically, we don’t even need a <form> element for that.
+Angular comes with a directive formControl which doesn’t have to be inside a formGroup. We can simply add it to a single form control and are ready to go:
+-->
+
+<!-- no surrounding form -->
+<input type="search" [formControl]="seachControl">
+
+<!--
+The cool thing about form controls in Angular is, 
+that we can listen reactively for changes that are happening to that control. 
+Every form controls exposes an Observable propery valuesChanges() that we can subscribe to. 
+So in order to get notified about changes in the example above, all we have to do is:
+-->
+
+@Component()
+export class SearchComponent implements OnInit {
+
+  searchControl = new FormControl();
+
+  ngOnInit() {
+    this.searchControl.valueChanges.subscribe(value => {
+      // do something with value here
+    });
+  }
+}
+-----------------------------------------------------------------
+https://blog.logrocket.com/reactive-form-controls-form-groups-angular/#:~:text=FormControl%20and%20FormGroup%20in%20Angular,-FormControl%20is%20a&text=FormGroup%20is%20used%20with%20FormControl,control%20name%20as%20the%20key.
+
+formControl: When you have very few (maybe one or two) independent field on your UI design, maybe an input. So there is no need for a form tag.
+
+formGroup: When you have a form that has multiple inputs, dropdown, radio buttons. All of which you want to create a JSON object to pass in API.
+In practice,  FormGroup aggregates the values of each child FormControl into a single object, using each control name as the key. It calculates its status by reducing the status values of its children so that if one control in a group is invalid, the entire group is rendered invalid.
+
+formBuilder: When you have a dynamic form. for e.g, there are address bar inputs. Users can add as many input bars as by clicking on the 'Add new line' button. That time you can utilize creating dynamic formControls.
+Creating form control instances manually can become repetitive when dealing with multiple forms. The FormBuilder service provides convenient methods for generating controls.
+So basically saying that FormBuilder is a service that is trying to help us reduce boiler-plate code.
+
+All of them give you an option to semantically create a group together, otherwise, all of this can be achieved just with formControl as well.
